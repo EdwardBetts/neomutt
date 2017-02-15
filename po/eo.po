@@ -1,33 +1,18 @@
-# Esperanto messages for NeoMutt
-#
-# Copyright (c) 2000-2003, 2007, 2015-2016 NeoMutt project.
-# This file is distributed under the same license as the NeoMutt package.
-#
-# Edmund GRIMLEY EVANS <edmundo@rano.org>, 2000-2003, 2007
-# Benno Schulenberg <benno@vertaalt.nl>, 2015-2016
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: neomutt-20161104\n"
-"Report-Msgid-Bugs-To: neomutt-devel@neomutt.org\n"
-"POT-Creation-Date: 2017-01-13 14:32+0000\n"
-"PO-Revision-Date: 2016-08-15 10:11+0200\n"
-"Last-Translator: Benno Schulenberg <benno@vertaalt.nl>\n"
-"Language-Team: Esperanto <translation-team-eo@lists.sourceforge.net>\n"
-"Language: eo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: NeoMutt\n"
+"Language: eo\n"
 
 #. L10N: Example: Username at myhost.com
 #: account.c:187
-#, c-format
 msgid "Username at %s: "
 msgstr "Uzantonomo ĉe %s: "
 
 #: account.c:252
-#, c-format
 msgid "Password for %s@%s: "
 msgstr "Pasvorto por %s@%s: "
 
@@ -82,7 +67,6 @@ msgid "Address: "
 msgstr "Adreso: "
 
 #: alias.c:308 send.c:215
-#, c-format
 msgid "Error: '%s' is a bad IDN."
 msgstr "Eraro: '%s' estas malbona IDN."
 
@@ -91,7 +75,6 @@ msgid "Personal name: "
 msgstr "Plena nomo: "
 
 #: alias.c:329
-#, c-format
 msgid "[%s = %s] Accept?"
 msgstr "[%s = %s] Ĉu akcepti?"
 
@@ -117,13 +100,11 @@ msgid "Can't match nametemplate, continue?"
 msgstr "Nomŝablono ne estas plenumebla.  Ĉu daŭrigi?"
 
 #: attach.c:126
-#, c-format
 msgid "Mailcap compose entry requires %%s"
 msgstr "\"compose\" en Mailcap-dosiero postulas %%s"
 
 #: attach.c:134 attach.c:266 commands.c:234 compose.c:1395 compress.c:444
 #: curs_lib.c:212 curs_lib.c:796
-#, c-format
 msgid "Error running \"%s\"!"
 msgstr "Eraro dum ruligo de \"%s\"!"
 
@@ -140,17 +121,14 @@ msgid "Failure to rename file."
 msgstr "Malsukcesis renomi dosieron."
 
 #: attach.c:197
-#, c-format
 msgid "No mailcap compose entry for %s, creating empty file."
 msgstr "En la Mailcap-dosiero mankas \"compose\" por %s; malplena dosiero estas kreita."
 
 #: attach.c:258
-#, c-format
 msgid "Mailcap Edit entry requires %%s"
 msgstr "\"edit\" en Mailcap-dosiero postulas %%s"
 
 #: attach.c:280
-#, c-format
 msgid "No mailcap edit entry for %s"
 msgstr "En la Mailcap-dosiero mankas \"edit\" por %s"
 
@@ -167,22 +145,18 @@ msgid "Cannot create filter"
 msgstr "Ne eblas krei filtrilon."
 
 #: attach.c:477
-#, c-format
 msgid "---Command: %-20.20s Description: %s"
 msgstr "---Komando: %-20.20s  Priskribo: %s"
 
 #: attach.c:481
-#, c-format
 msgid "---Command: %-30.30s Attachment: %s"
 msgstr "---Komando: %-30.30s  Parto: %s"
 
 #: attach.c:558
-#, c-format
 msgid "---Attachment: %s: %s"
 msgstr "---Parto: %s: %s"
 
 #: attach.c:561
-#, c-format
 msgid "---Attachment: %s"
 msgstr "---Parto: %s"
 
@@ -230,27 +204,23 @@ msgid "Catchup"
 msgstr ""
 
 #: browser.c:671 browser.c:1640
-#, c-format
 msgid "%s is not a directory."
 msgstr "%s ne estas dosierujo."
 
 #: browser.c:930
-#, fuzzy, c-format
+#, fuzzy
 msgid "Subscribed newsgroups"
 msgstr "Abonas %s"
 
 #: browser.c:932
-#, c-format
 msgid "Newsgroups on server [%s]"
 msgstr ""
 
 #: browser.c:941
-#, c-format
 msgid "Mailboxes [%d]"
 msgstr "Poŝtfakoj [%d]"
 
 #: browser.c:948
-#, c-format
 msgid "Directory [%s], File mask: %s"
 msgstr "Dosierujo [%s], Dosieromasko: %s"
 
@@ -279,7 +249,6 @@ msgid "Cannot delete root folder"
 msgstr "Ne eblas forviŝi radikan poŝtujon"
 
 #: browser.c:1545
-#, c-format
 msgid "Really delete mailbox \"%s\"?"
 msgstr "Ĉu vere forviŝi la poŝtfakon \"%s\"?"
 
@@ -333,12 +302,12 @@ msgid "Error trying to view file"
 msgstr "Eraro dum vidigo de dosiero"
 
 #: browser.c:1982
-#, fuzzy, c-format
+#, fuzzy
 msgid "Subscribe pattern: "
 msgstr "Abonas %s"
 
 #: browser.c:1984
-#, fuzzy, c-format
+#, fuzzy
 msgid "Unsubscribe pattern: "
 msgstr "Malabonis %s"
 
@@ -352,27 +321,22 @@ msgid "New mail in "
 msgstr "Nova mesaĝo en "
 
 #: color.c:362
-#, c-format
 msgid "%s: color not supported by term"
 msgstr "%s: terminalo ne kapablas je koloro"
 
 #: color.c:368
-#, c-format
 msgid "%s: no such color"
 msgstr "%s: koloro ne ekzistas"
 
 #: color.c:481 color.c:671 color.c:682
-#, c-format
 msgid "%s: no such object"
 msgstr "%s: objekto ne ekzistas"
 
 #: color.c:496
-#, c-format
 msgid "%s: command valid only for index, body, header objects"
 msgstr "%s: komando validas nur por indeksaj, korpaj, kaj ĉapaj objektoj"
 
 #: color.c:504 init.c:712
-#, c-format
 msgid "%s: too few arguments"
 msgstr "%s: nesufiĉe da argumentoj"
 
@@ -389,7 +353,6 @@ msgid "mono: too few arguments"
 msgstr "mono: nesufiĉe da argumentoj"
 
 #: color.c:752
-#, c-format
 msgid "%s: no such attribute"
 msgstr "%s: nekonata trajto"
 
@@ -466,17 +429,14 @@ msgid "Error parsing address!"
 msgstr "Eraro dum analizo de adreso!"
 
 #: commands.c:310 recvcmd.c:190
-#, c-format
 msgid "Bad IDN: '%s'"
 msgstr "Malbona IDN: '%s'"
 
 #: commands.c:321 recvcmd.c:204
-#, c-format
 msgid "Bounce message to %s"
 msgstr "Redirekti mesaĝon al %s"
 
 #: commands.c:321 recvcmd.c:204
-#, c-format
 msgid "Bounce messages to %s"
 msgstr "Redirekti mesaĝojn al %s"
 
@@ -555,32 +515,26 @@ msgid "Shell command: "
 msgstr "Ŝelkomando: "
 
 #: commands.c:760
-#, c-format
 msgid "Decode-save%s to mailbox"
 msgstr "Malkodita skribi%s al poŝtfako"
 
 #: commands.c:761
-#, c-format
 msgid "Decode-copy%s to mailbox"
 msgstr "Malkodita kopii%s al poŝtfako"
 
 #: commands.c:762
-#, c-format
 msgid "Decrypt-save%s to mailbox"
 msgstr "Malĉifrita skribi%s al poŝtfako"
 
 #: commands.c:763
-#, c-format
 msgid "Decrypt-copy%s to mailbox"
 msgstr "Malĉifrita kopii%s al poŝtfako"
 
 #: commands.c:764
-#, c-format
 msgid "Save%s to mailbox"
 msgstr "Skribi%s al poŝtfako"
 
 #: commands.c:764
-#, c-format
 msgid "Copy%s to mailbox"
 msgstr "Kopii%s al poŝtfako"
 
@@ -589,22 +543,18 @@ msgid " tagged"
 msgstr " markitajn"
 
 #: commands.c:838
-#, c-format
 msgid "Copying to %s..."
 msgstr "Kopias al %s..."
 
 #: commands.c:996
-#, c-format
 msgid "Convert to %s upon sending?"
 msgstr "Ĉu konverti al %s ĉe sendado?"
 
 #: commands.c:1006
-#, c-format
 msgid "Content-Type changed to %s."
 msgstr "Content-Type ŝanĝita al %s."
 
 #: commands.c:1011
-#, c-format
 msgid "Character set changed to %s; %s."
 msgstr "Signaro ŝanĝita al %s; %s."
 
@@ -690,13 +640,15 @@ msgstr "Ĉifri per: "
 msgid "Mix: "
 msgstr "Mix: "
 
+#: compose.c:217
+msgid "<no chain defined>"
+msgstr ""
+
 #: compose.c:253
-#, c-format
 msgid "%s [#%d] no longer exists!"
 msgstr "%s [#%d] ne plu ekzistas!"
 
 #: compose.c:261
-#, c-format
 msgid "%s [#%d] modified. Update encoding?"
 msgstr "%s [#%d] modifita.  Ĉu aktualigi kodadon?"
 
@@ -705,7 +657,6 @@ msgid "-- Attachments"
 msgstr "-- Partoj"
 
 #: compose.c:351
-#, c-format
 msgid "Warning: '%s' is a bad IDN."
 msgstr "Averto: '%s' estas malbona IDN."
 
@@ -714,7 +665,6 @@ msgid "You may not delete the only attachment."
 msgstr "Vi ne povas forviŝi la solan parton."
 
 #: compose.c:749 send.c:1875
-#, c-format
 msgid "Bad IDN in \"%s\": '%s'"
 msgstr "Malbona IDN en \"%s\": '%s'"
 
@@ -723,7 +673,6 @@ msgid "Attaching selected files..."
 msgstr "Aldonas la elektitajn dosierojn..."
 
 #: compose.c:850
-#, c-format
 msgid "Unable to attach %s!"
 msgstr "Ne eblas aldoni %s!"
 
@@ -737,7 +686,6 @@ msgid "Open newsgroup to attach message from"
 msgstr "Malfermu poŝtfakon por aldoni mesaĝon el ĝi"
 
 #: compose.c:925
-#, c-format
 msgid "Unable to open mailbox %s"
 msgstr "Ne eblas malfermi poŝtfakon %s"
 
@@ -783,9 +731,8 @@ msgid "Rename to: "
 msgstr "Renomi al: "
 
 #. L10N:
-#. "stat" is a system call. Do "man 2 stat" for more information.
+#. stat" is a system call. Do "man 2 stat" for more information
 #: compose.c:1221 editmsg.c:96 editmsg.c:121 sendlib.c:883
-#, c-format
 msgid "Can't stat %s: %s"
 msgstr "Ne eblas ekzameni la dosieron %s: %s"
 
@@ -798,12 +745,10 @@ msgid "Content-Type is of the form base/sub"
 msgstr "Content-Type havas la formon bazo/subspeco"
 
 #: compose.c:1267
-#, c-format
 msgid "Unknown Content-Type %s"
 msgstr "Nekonata Content-Type %s"
 
 #: compose.c:1280
-#, c-format
 msgid "Can't create file %s"
 msgstr "Ne eblas krei dosieron %s"
 
@@ -820,7 +765,6 @@ msgid "Write message to mailbox"
 msgstr "Skribi mesaĝon al poŝtfako"
 
 #: compose.c:1416
-#, c-format
 msgid "Writing message to %s ..."
 msgstr "Skribas mesaĝon al %s..."
 
@@ -841,7 +785,6 @@ msgid "Unable to lock mailbox!"
 msgstr "Ne eblis ŝlosi poŝtfakon!"
 
 #: compress.c:485 compress.c:558 compress.c:710
-#, c-format
 msgid "Decompressing %s"
 msgstr ""
 
@@ -850,17 +793,15 @@ msgid "Can't identify the contents of the compressed file"
 msgstr ""
 
 #: compress.c:501 compress.c:579
-#, c-format
 msgid "Can't find mailbox ops for mailbox type %d"
 msgstr ""
 
 #: compress.c:540 compress.c:834
-#, c-format
 msgid "Cannot append without an append-hook or close-hook : %s"
 msgstr ""
 
 #: compress.c:561
-#, fuzzy, c-format
+#, fuzzy
 msgid "Compress command failed: %s"
 msgstr "Antaŭkonekta komando malsukcesis."
 
@@ -869,17 +810,16 @@ msgid "Unsupported mailbox type for appending."
 msgstr ""
 
 #: compress.c:648
-#, fuzzy, c-format
+#, fuzzy
 msgid "Compressed-appending to %s..."
 msgstr "Kopias al %s..."
 
 #: compress.c:653
-#, fuzzy, c-format
+#, fuzzy
 msgid "Compressing %s..."
 msgstr "Kopias al %s..."
 
 #: compress.c:660 editmsg.c:210
-#, c-format
 msgid "Error. Preserving temporary file: %s"
 msgstr "Eraro.  Konservas dumtempan dosieron: %s"
 
@@ -888,7 +828,7 @@ msgid "Can't sync a compressed file without a close-hook"
 msgstr ""
 
 #: compress.c:907
-#, fuzzy, c-format
+#, fuzzy
 msgid "Compressing %s"
 msgstr "Kopias al %s..."
 
@@ -897,73 +837,90 @@ msgid "No decryption engine available for message"
 msgstr ""
 
 #: crypt-gpgme.c:391
-#, c-format
 msgid "error creating gpgme context: %s\n"
+""
 msgstr "eraro en kreado de gpgme-kunteksto: %s\n"
+""
 
 #: crypt-gpgme.c:401
-#, c-format
 msgid "error enabling CMS protocol: %s\n"
+""
 msgstr "eraro en funkciigo de CMS-protokolo: %s\n"
+""
 
 #: crypt-gpgme.c:421
-#, c-format
 msgid "error creating gpgme data object: %s\n"
+""
 msgstr "eraro en kreado de gpgme-datenobjekto: %s\n"
+""
 
 #: crypt-gpgme.c:487 crypt-gpgme.c:505 crypt-gpgme.c:1537 crypt-gpgme.c:2252
-#, c-format
 msgid "error allocating data object: %s\n"
+""
 msgstr "eraro en asignado por datenobjekto: %s\n"
+""
 
 #: crypt-gpgme.c:523
-#, c-format
 msgid "error rewinding data object: %s\n"
+""
 msgstr "eraro en rebobenado de datenobjekto: %s\n"
+""
+
+#: crypt-gpgme.c:557
+msgid "[tempfile]"
+msgstr ""
 
 #: crypt-gpgme.c:545 crypt-gpgme.c:598
-#, c-format
 msgid "error reading data object: %s\n"
+""
 msgstr "eraro en legado de datenobjekto: %s\n"
+""
 
 #: crypt-gpgme.c:571 crypt-gpgme.c:3628 pgpkey.c:559 pgpkey.c:740
 msgid "Can't create temporary file"
 msgstr "Ne eblas krei dumtempan dosieron"
 
 #: crypt-gpgme.c:679
-#, c-format
 msgid "error adding recipient `%s': %s\n"
+""
 msgstr "eraro en aldonado de ricevonto '%s': %s\n"
+""
 
 #: crypt-gpgme.c:719
-#, c-format
 msgid "secret key `%s' not found: %s\n"
+""
 msgstr "sekreta ŝlosilo '%s' ne trovita: %s\n"
+""
 
 #: crypt-gpgme.c:729
-#, c-format
 msgid "ambiguous specification of secret key `%s'\n"
+""
 msgstr "plursenca specifo de sekreta ŝlosilo '%s'\n"
+""
 
 #: crypt-gpgme.c:741
-#, c-format
 msgid "error setting secret key `%s': %s\n"
+""
 msgstr "eraro en elekto de sekreta ŝlosilo '%s': %s\n"
+""
 
 #: crypt-gpgme.c:758
-#, c-format
 msgid "error setting PKA signature notation: %s\n"
+""
 msgstr "eraro en elektado de PKA-subskribo-notacio: %s\n"
+""
 
 #: crypt-gpgme.c:814
-#, c-format
 msgid "error encrypting data: %s\n"
+""
 msgstr "eraro en ĉifrado de datenoj: %s\n"
+""
 
 #: crypt-gpgme.c:931
-#, c-format
 msgid "error signing data: %s\n"
+""
 msgstr "eraro en subskribado de datenoj: %s\n"
+""
 
 #: crypt-gpgme.c:942
 msgid "$pgp_sign_as unset and no default key specified in ~/.gnupg/gpg.conf"
@@ -971,7 +928,9 @@ msgstr "$pgp_sign_as estas malŝaltita kaj neniu defaŭlta ŝlosilo indikatas en
 
 #: crypt-gpgme.c:1138
 msgid "Warning: One of the keys has been revoked\n"
+""
 msgstr "Averto: Unu el la ŝlosiloj estas revokita\n"
+""
 
 #: crypt-gpgme.c:1147
 msgid "Warning: The key used to create the signature expired at: "
@@ -979,7 +938,9 @@ msgstr "Averto: La ŝlosilo uzita por krei la subskribon eksvalidiĝis je: "
 
 #: crypt-gpgme.c:1153
 msgid "Warning: At least one certification key has expired\n"
+""
 msgstr "Averto: Almenaŭ unu atestila ŝlosilo eksvalidiĝis\n"
+""
 
 #: crypt-gpgme.c:1169
 msgid "Warning: The signature expired at: "
@@ -987,19 +948,27 @@ msgstr "Averto: La subskribo eksvalidiĝis je: "
 
 #: crypt-gpgme.c:1175
 msgid "Can't verify due to a missing key or certificate\n"
+""
 msgstr "Ne eblas kontroli pro mankanta ŝlosilo aŭ atestilo\n"
+""
 
 #: crypt-gpgme.c:1180
 msgid "The CRL is not available\n"
+""
 msgstr "CRL ne disponeblas\n"
+""
 
 #: crypt-gpgme.c:1186
 msgid "Available CRL is too old\n"
+""
 msgstr "Disponebla CRL estas tro malnova\n"
+""
 
 #: crypt-gpgme.c:1191
 msgid "A policy requirement was not met\n"
+""
 msgstr "Politika postulo ne estis plenumita\n"
+""
 
 #: crypt-gpgme.c:1200
 msgid "A system error occurred"
@@ -1023,15 +992,21 @@ msgstr "Fingrospuro: "
 
 #: crypt-gpgme.c:1318
 msgid "WARNING: We have NO indication whether the key belongs to the person named as shown above\n"
+""
 msgstr "AVERTO: Ni havas NENIAN indikon, ĉu la ŝlosilo apartenas al la persono nomita supre\n"
+""
 
 #: crypt-gpgme.c:1325
 msgid "WARNING: The key does NOT BELONG to the person named as shown above\n"
+""
 msgstr "AVERTO: La ŝlosilo NE APARTENAS al la persono nomita supre\n"
+""
 
 #: crypt-gpgme.c:1329
 msgid "WARNING: It is NOT certain that the key belongs to the person named as shown above\n"
+""
 msgstr "AVERTO: NE estas certe ke la ŝlosilo apartenas al la persono nomita supre\n"
+""
 
 #: crypt-gpgme.c:1359 crypt-gpgme.c:1364
 msgid "aka: "
@@ -1046,9 +1021,10 @@ msgid "created: "
 msgstr "kreita: "
 
 #: crypt-gpgme.c:1461
-#, c-format
 msgid "Error getting key information for KeyID %s: %s\n"
+""
 msgstr "Eraro en akirado de ŝlosilinformo por ŝlosil-ID %s: %s\n"
+""
 
 #: crypt-gpgme.c:1468 crypt-gpgme.c:1483
 msgid "Good signature from:"
@@ -1064,122 +1040,148 @@ msgstr "Problema subskribo de:"
 
 #. L10N:
 #. This is trying to match the width of the
-#. "Problem signature from:" translation just above.
+#. Problem signature from:" translation just above
 #: crypt-gpgme.c:1498
 msgid "               expires: "
 msgstr "         senvalidiĝas: "
 
 #: crypt-gpgme.c:1545 crypt-gpgme.c:1768 crypt-gpgme.c:2469
 msgid "[-- Begin signature information --]\n"
+""
 msgstr "[-- Komenco de subskribinformo --]\n"
+""
 
 #: crypt-gpgme.c:1557
-#, c-format
 msgid "Error: verification failed: %s\n"
+""
 msgstr "Eraro: kontrolado malsukcesis: %s\n"
+""
 
 #: crypt-gpgme.c:1611
-#, c-format
 msgid "*** Begin Notation (signature by: %s) ***\n"
+""
 msgstr "*** Komenco de notacio (subskribo de: %s) ***\n"
+""
 
 #: crypt-gpgme.c:1633
 msgid "*** End Notation ***\n"
+""
 msgstr "*** Fino de notacio ***\n"
+""
 
 #: crypt-gpgme.c:1641 crypt-gpgme.c:1781 crypt-gpgme.c:2482
-msgid ""
-"[-- End signature information --]\n"
+msgid "[-- End signature information --]\n"
 "\n"
-msgstr ""
-"[-- Fino de subskribo-informoj --]\n"
+""
+msgstr "[-- Fino de subskribo-informoj --]\n"
 "\n"
+""
 
 #: crypt-gpgme.c:1736
-#, c-format
-msgid ""
-"[-- Error: decryption failed: %s --]\n"
+msgid "[-- Error: decryption failed: %s --]\n"
 "\n"
+""
 msgstr "[-- Eraro: malĉifrado malsukcesis: %s --]\n"
+""
 
 #: crypt-gpgme.c:2259
 msgid "Error extracting key data!\n"
+""
 msgstr "Eraro dum eltiro de ŝlosildatenoj!\n"
+""
 
 #: crypt-gpgme.c:2445
-#, c-format
 msgid "Error: decryption/verification failed: %s\n"
+""
 msgstr "Eraro: malĉifrado/kontrolado malsukcesis: %s\n"
+""
 
 #: crypt-gpgme.c:2490
 msgid "Error: copy data failed\n"
+""
 msgstr "Eraro: datenkopiado malsukcesis\n"
+""
 
 #: crypt-gpgme.c:2511 pgp.c:519
-msgid ""
-"[-- BEGIN PGP MESSAGE --]\n"
+msgid "[-- BEGIN PGP MESSAGE --]\n"
 "\n"
+""
 msgstr "[-- KOMENCO DE PGP-MESAĜO --]\n"
+""
 
 #: crypt-gpgme.c:2513 pgp.c:521
 msgid "[-- BEGIN PGP PUBLIC KEY BLOCK --]\n"
+""
 msgstr "[-- KOMENCO DE PUBLIKA PGP-ŜLOSILO --]\n"
+""
 
 #: crypt-gpgme.c:2516 pgp.c:523
-msgid ""
-"[-- BEGIN PGP SIGNED MESSAGE --]\n"
+msgid "[-- BEGIN PGP SIGNED MESSAGE --]\n"
 "\n"
-msgstr ""
-"[-- KOMENCO DE PGP-SUBSKRIBITA MESAĜO --]\n"
+""
+msgstr "[-- KOMENCO DE PGP-SUBSKRIBITA MESAĜO --]\n"
 "\n"
+""
 
 #: crypt-gpgme.c:2543 pgp.c:566
 msgid "[-- END PGP MESSAGE --]\n"
+""
 msgstr "[-- FINO DE PGP-MESAĜO --]\n"
+""
 
 #: crypt-gpgme.c:2545 pgp.c:573
 msgid "[-- END PGP PUBLIC KEY BLOCK --]\n"
+""
 msgstr "[-- FINO DE PUBLIKA PGP-ŜLOSILO --]\n"
+""
 
 #: crypt-gpgme.c:2547 pgp.c:575
 msgid "[-- END PGP SIGNED MESSAGE --]\n"
+""
 msgstr "[-- FINO DE PGP-SUBSKRIBITA MESAĜO --]\n"
+""
 
 #: crypt-gpgme.c:2570 pgp.c:608
-msgid ""
-"[-- Error: could not find beginning of PGP message! --]\n"
+msgid "[-- Error: could not find beginning of PGP message! --]\n"
 "\n"
-msgstr ""
-"[-- Eraro: ne eblas trovi komencon de PGP-mesaĝo! --]\n"
+""
+msgstr "[-- Eraro: ne eblas trovi komencon de PGP-mesaĝo! --]\n"
 "\n"
+""
 
 #: crypt-gpgme.c:2601 crypt-gpgme.c:2674 pgp.c:1091
 msgid "[-- Error: could not create temporary file! --]\n"
+""
 msgstr "[-- Eraro: ne eblas krei dumtempan dosieron! --]\n"
+""
 
 #: crypt-gpgme.c:2613
-msgid ""
-"[-- The following data is PGP/MIME signed and encrypted --]\n"
+msgid "[-- The following data is PGP/MIME signed and encrypted --]\n"
 "\n"
-msgstr ""
-"[-- La sekvaj datenoj estas PGP/MIME-subskribitaj kaj -ĉifritaj --]\n"
+""
+msgstr "[-- La sekvaj datenoj estas PGP/MIME-subskribitaj kaj -ĉifritaj --]\n"
 "\n"
+""
 
 #: crypt-gpgme.c:2614 pgp.c:1100
-msgid ""
-"[-- The following data is PGP/MIME encrypted --]\n"
+msgid "[-- The following data is PGP/MIME encrypted --]\n"
 "\n"
-msgstr ""
-"[-- La sekvaj datenoj estas PGP/MIME-ĉifritaj --]\n"
+""
+msgstr "[-- La sekvaj datenoj estas PGP/MIME-ĉifritaj --]\n"
 "\n"
+""
 
 #: crypt-gpgme.c:2636
 msgid "[-- End of PGP/MIME signed and encrypted data --]\n"
+""
 msgstr "[-- Fino de PGP/MIME-subskribitaj kaj -ĉifritaj datenoj --]\n"
+""
 
 #: crypt-gpgme.c:2637 pgp.c:1120
 msgid "[-- End of PGP/MIME encrypted data --]\n"
+""
 msgstr "[-- Fino de PGP/MIME-ĉifritaj datenoj --]\n"
+""
 
 #: crypt-gpgme.c:2642 pgp.c:570 pgp.c:1125
 msgid "PGP message successfully decrypted."
@@ -1190,28 +1192,32 @@ msgid "Could not decrypt PGP message"
 msgstr "Ne eblis malĉifri PGP-mesaĝon"
 
 #: crypt-gpgme.c:2686
-msgid ""
-"[-- The following data is S/MIME signed --]\n"
+msgid "[-- The following data is S/MIME signed --]\n"
 "\n"
-msgstr ""
-"[-- La sekvaj datenoj estas S/MIME-subskribitaj --]\n"
+""
+msgstr "[-- La sekvaj datenoj estas S/MIME-subskribitaj --]\n"
 "\n"
+""
 
 #: crypt-gpgme.c:2687
-msgid ""
-"[-- The following data is S/MIME encrypted --]\n"
+msgid "[-- The following data is S/MIME encrypted --]\n"
 "\n"
-msgstr ""
-"[-- La sekvaj datenoj estas S/MIME-ĉifritaj --]\n"
+""
+msgstr "[-- La sekvaj datenoj estas S/MIME-ĉifritaj --]\n"
 "\n"
+""
 
 #: crypt-gpgme.c:2717
 msgid "[-- End of S/MIME signed data --]\n"
+""
 msgstr "[-- Fino de S/MIME-subskribitaj datenoj --]\n"
+""
 
 #: crypt-gpgme.c:2718
 msgid "[-- End of S/MIME encrypted data --]\n"
+""
 msgstr "[-- Fino de S/MIME-ĉifritaj datenoj --]\n"
+""
 
 #: crypt-gpgme.c:3302
 msgid "[Can't display this user ID (unknown encoding)]"
@@ -1240,25 +1246,27 @@ msgstr "[Nevalida]"
 
 #. L10N: DOTFILL
 #: crypt-gpgme.c:3410 crypt-gpgme.c:3564
-#, c-format
 msgid "Valid From : %s\n"
+""
 msgstr "Valida de .: %s\n"
+""
 
 #. L10N: DOTFILL
 #: crypt-gpgme.c:3424 crypt-gpgme.c:3578
-#, c-format
 msgid "Valid To ..: %s\n"
+""
 msgstr "Valida ĝis : %s\n"
+""
 
 #. L10N: DOTFILL
 #: crypt-gpgme.c:3438 crypt-gpgme.c:3586
-#, c-format
 msgid "Key Type ..: %s, %lu bit %s\n"
+""
 msgstr "Ŝlosilspeco: %s, %lu-bita %s\n"
+""
 
 #. L10N: DOTFILL
 #: crypt-gpgme.c:3441 crypt-gpgme.c:3589
-#, c-format
 msgid "Key Usage .: "
 msgstr "Ŝlosiluzado: "
 
@@ -1281,19 +1289,18 @@ msgstr "atestado"
 
 #. L10N: DOTFILL
 #: crypt-gpgme.c:3501
-#, c-format
 msgid "Serial-No .: 0x%s\n"
+""
 msgstr "Seri-numero: 0x%s\n"
+""
 
 #. L10N: DOTFILL
 #: crypt-gpgme.c:3510
-#, c-format
 msgid "Issued By .: "
 msgstr "Eldonita de: "
 
 #. L10N: DOTFILL
 #: crypt-gpgme.c:3530
-#, c-format
 msgid "Subkey ....: 0x%s"
 msgstr "Subŝlosilo : 0x%s"
 
@@ -1314,31 +1321,30 @@ msgid "Collecting data..."
 msgstr "Kolektas datenojn..."
 
 #: crypt-gpgme.c:3657
-#, c-format
 msgid "Error finding issuer key: %s\n"
+""
 msgstr "Eraro dum trovado de eldoninto-ŝlosilo: %s\n"
+""
 
 #: crypt-gpgme.c:3667
 msgid "Error: certification chain too long - stopping here\n"
+""
 msgstr "Eraro: atestado-ĉeno tro longas -- haltas ĉi tie\n"
+""
 
 #: crypt-gpgme.c:3678 pgpkey.c:581
-#, c-format
 msgid "Key ID: 0x%s"
 msgstr "Key ID: 0x%s"
 
 #: crypt-gpgme.c:3761
-#, c-format
 msgid "gpgme_new failed: %s"
 msgstr "gpgme_new() malsukcesis: %s"
 
 #: crypt-gpgme.c:3800 crypt-gpgme.c:3875
-#, c-format
 msgid "gpgme_op_keylist_start failed: %s"
 msgstr "gpgme_op_keylist_start() malsukcesis: %s"
 
 #: crypt-gpgme.c:3862 crypt-gpgme.c:3906
-#, c-format
 msgid "gpgme_op_keylist_next failed: %s"
 msgstr "gpgme_op_keylist_next() malsukcesis: %s"
 
@@ -1380,14 +1386,12 @@ msgstr "ŝlosiloj kongruaj"
 #. %2$s is an address.
 #. e.g. "S/MIME keys matching <me@mutt.org>."
 #: crypt-gpgme.c:4040
-#, c-format
 msgid "%s <%s>."
 msgstr "%s <%s>."
 
 #. L10N:
 #. e.g. 'S/MIME keys matching "Michael Elkins".'
 #: crypt-gpgme.c:4044
-#, c-format
 msgid "%s \"%s\"."
 msgstr "%s \"%s\"."
 
@@ -1412,22 +1416,18 @@ msgid "ID is only marginally valid."
 msgstr "ID estas nur iomete valida."
 
 #: crypt-gpgme.c:4108 pgpkey.c:627 smime.c:477
-#, c-format
 msgid "%s Do you really want to use the key?"
 msgstr "%s Ĉu vi vere volas uzi la ŝlosilon?"
 
 #: crypt-gpgme.c:4169 crypt-gpgme.c:4303 pgpkey.c:838 pgpkey.c:965
-#, c-format
 msgid "Looking for keys matching \"%s\"..."
 msgstr "Serĉas ŝlosilojn kiuj kongruas kun \"%s\"..."
 
 #: crypt-gpgme.c:4458 pgp.c:1304
-#, c-format
 msgid "Use keyID = \"%s\" for %s?"
 msgstr "Ĉu uzi keyID = \"%s\" por %s?"
 
 #: crypt-gpgme.c:4516 pgp.c:1353 smime.c:796 smime.c:902
-#, c-format
 msgid "Enter keyID for %s: "
 msgstr "Donu keyID por %s: "
 
@@ -1436,16 +1436,16 @@ msgid "Please enter the key ID: "
 msgstr "Bonvolu doni la ŝlosilidentigilon: "
 
 #: crypt-gpgme.c:4606
-#, c-format
 msgid "Error exporting key: %s\n"
+""
 msgstr "Eraro dum eksportado de ŝlosilo: %s\n"
+""
 
 #. L10N:
 #. MIME description for exported (attached) keys.
 #. You can translate this entry to a non-ASCII string (it will be encoded),
 #. but it may be safer to keep it untranslated.
 #: crypt-gpgme.c:4626
-#, c-format
 msgid "PGP Key 0x%s."
 msgstr "PGP-ŝlosilo 0x%s."
 
@@ -1536,14 +1536,14 @@ msgid "Failed to figure out sender"
 msgstr "Malsukcesis eltrovi sendinton"
 
 #: crypt.c:67
-#, c-format
 msgid " (current time: %c)"
 msgstr " (nuna horo: %c)"
 
 #: crypt.c:72
-#, c-format
 msgid "[-- %s output follows%s --]\n"
+""
 msgstr "[-- %s eligo sekvas%s --]\n"
+""
 
 #: crypt.c:87
 msgid "Passphrase(s) forgotten."
@@ -1583,61 +1583,63 @@ msgstr "S/MIME-mesaĝoj sen informoj pri enhavo ne funkcias."
 
 #: crypt.c:727 crypt.c:771
 msgid "Trying to extract PGP keys...\n"
+""
 msgstr "Provas eltiri PGP-ŝlosilojn...\n"
+""
 
 #: crypt.c:751 crypt.c:791
 msgid "Trying to extract S/MIME certificates...\n"
+""
 msgstr "Provas eltiri S/MIME-atestilojn...\n"
+""
 
 #: crypt.c:938
-#, c-format
-msgid ""
-"[-- Error: Unknown multipart/signed protocol %s! --]\n"
+msgid "[-- Error: Unknown multipart/signed protocol %s! --]\n"
 "\n"
-msgstr ""
-"[-- Eraro: nekonata multipart/signed-protokolo %s! --]\n"
+""
+msgstr "[-- Eraro: nekonata multipart/signed-protokolo %s! --]\n"
 "\n"
+""
 
 #: crypt.c:972
-msgid ""
-"[-- Error: Inconsistent multipart/signed structure! --]\n"
+msgid "[-- Error: Inconsistent multipart/signed structure! --]\n"
 "\n"
-msgstr ""
-"[-- Eraro: malĝusta strukturo de multipart/signed! --]\n"
+""
+msgstr "[-- Eraro: malĝusta strukturo de multipart/signed! --]\n"
 "\n"
+""
 
 #: crypt.c:1011
-#, c-format
-msgid ""
-"[-- Warning: We can't verify %s/%s signatures. --]\n"
+msgid "[-- Warning: We can't verify %s/%s signatures. --]\n"
 "\n"
-msgstr ""
-"[-- Averto: ne eblas kontroli %s/%s-subskribojn. --]\n"
+""
+msgstr "[-- Averto: ne eblas kontroli %s/%s-subskribojn. --]\n"
 "\n"
+""
 
 #: crypt.c:1023
-msgid ""
-"[-- The following data is signed --]\n"
+msgid "[-- The following data is signed --]\n"
 "\n"
-msgstr ""
-"[-- La sekvaj datenoj estas subskribitaj --]\n"
+""
+msgstr "[-- La sekvaj datenoj estas subskribitaj --]\n"
 "\n"
+""
 
 #: crypt.c:1029
-msgid ""
-"[-- Warning: Can't find any signatures. --]\n"
+msgid "[-- Warning: Can't find any signatures. --]\n"
 "\n"
-msgstr ""
-"[-- Averto: ne eblas trovi subskribon. --]\n"
+""
+msgstr "[-- Averto: ne eblas trovi subskribon. --]\n"
 "\n"
+""
 
 #: crypt.c:1035
-msgid ""
-"\n"
+msgid "\n"
 "[-- End of signed data --]\n"
-msgstr ""
-"\n"
+""
+msgstr "\n"
 "[-- Fino de subskribitaj datenoj --]\n"
+""
 
 #: cryptglue.c:89
 msgid "\"crypt_use_gpgme\" set but not built with GPGME support."
@@ -1693,7 +1695,6 @@ msgstr "Malestas videblaj mesaĝoj."
 
 #. L10N: %s is one of the CHECK_ACL entries below.
 #: curs_main.c:111 pager.c:87
-#, c-format
 msgid "%s: Operation not permitted by ACL"
 msgstr "%s: operacio ne permesiĝas de ACL"
 
@@ -1710,7 +1711,6 @@ msgid "Changes to folder will not be written."
 msgstr "Ŝanĝoj al poŝtfako ne estos skribitaj."
 
 #: curs_main.c:724 mx.c:561 mx.c:653
-#, c-format
 msgid "%s is not a mailbox."
 msgstr "%s ne estas poŝtfako."
 
@@ -1778,12 +1778,11 @@ msgid "Message is not visible in limited view."
 msgstr "Patra mesaĝo ne estas videbla en ĉi tiu limigita rigardo."
 
 #: curs_main.c:1249
-#, fuzzy, c-format
+#, fuzzy
 msgid "Fetching %s from server..."
 msgstr "Forviŝas mesaĝojn de la servilo..."
 
 #: curs_main.c:1259
-#, c-format
 msgid "Article %s not found on the server."
 msgstr ""
 
@@ -1831,7 +1830,6 @@ msgstr "Nenia ŝablono estas aktiva."
 
 #. L10N: ask for a limit to apply
 #: curs_main.c:1468
-#, c-format
 msgid "Limit: %s"
 msgstr "Ŝablono: %s"
 
@@ -1883,7 +1881,6 @@ msgid "No label specified, aborting."
 msgstr "Mankas temlinio; eliras."
 
 #: curs_main.c:1825
-#, c-format
 msgid "Update labels..."
 msgstr ""
 
@@ -1898,6 +1895,14 @@ msgstr "Mankas temlinio; eliras."
 
 #: curs_main.c:1886
 msgid "Failed to create query, aborting."
+msgstr ""
+
+#: curs_main.c:1893 curs_main.c:1912
+msgid "Windowed queries disabled."
+msgstr ""
+
+#: curs_main.c:1898 curs_main.c:1917
+msgid "No notmuch vfolder currently loaded."
 msgstr ""
 
 #: curs_main.c:1915
@@ -2038,6 +2043,15 @@ msgstr "Ne eblas forviŝi mesaĝon"
 msgid "Cannot edit message"
 msgstr "Ne eblas redakti mesaĝon"
 
+#. L10N: This is displayed when the x-label on one or more
+#. * messages is edited.
+#: curs_main.c:2844 pager.c:3091
+msgid "%d labels changed."
+msgstr ""
+
+#. L10N: This is displayed when editing an x-label, but no messages
+#. * were updated.  Possibly due to canceling at the prompt or if the new
+#. * label is the same as the old label.
 #: curs_main.c:2805 pager.c:3081
 #, fuzzy
 msgid "No labels changed."
@@ -2067,7 +2081,7 @@ msgstr "Mesaĝo prokrastita."
 #. macro.  %s is the hotkey string ($mark_macro_prefix followed
 #. by whatever they typed at the prompt.)
 #: curs_main.c:2954
-#, fuzzy, c-format
+#, fuzzy
 msgid "Message bound to %s."
 msgstr "Mesaĝo redirektita."
 
@@ -2092,8 +2106,7 @@ msgid "Cannot undelete message"
 msgstr "Ne eblas malforviŝi mesaĝon"
 
 #: edit.c:42
-msgid ""
-"~~\t\tinsert a line beginning with a single ~\n"
+msgid "~~\t\tinsert a line beginning with a single ~\n"
 "~b users\tadd users to the Bcc: field\n"
 "~c users\tadd users to the Cc: field\n"
 "~f messages\tinclude messages\n"
@@ -2102,8 +2115,8 @@ msgid ""
 "~m messages\tinclude and quote messages\n"
 "~M messages\tsame as ~m, except include headers\n"
 "~p\t\tprint the message\n"
-msgstr ""
-"~~\t\tenŝovi linion kiu komenciĝas per unuopa ~\n"
+""
+msgstr "~~\t\tenŝovi linion kiu komenciĝas per unuopa ~\n"
 "~b adresoj\taldoni adresojn al la linio Bcc:\n"
 "~c adresoj\taldoni adresojn al la linio Cc:\n"
 "~f mesaĝoj\tinkluzivi mesaĝojn\n"
@@ -2112,10 +2125,10 @@ msgstr ""
 "~m mesaĝoj\tinkluzivi kaj citi mesaĝojn\n"
 "~M mesaĝoj\tsame kiel ~m, sed inkluzivi ankaŭ la ĉapojn\n"
 "~p\t\tpresi la mesaĝon\n"
+""
 
 #: edit.c:53
-msgid ""
-"~q\t\twrite file and quit editor\n"
+msgid "~q\t\twrite file and quit editor\n"
 "~r file\t\tread a file into the editor\n"
 "~t users\tadd users to the To: field\n"
 "~u\t\trecall the previous line\n"
@@ -2124,8 +2137,8 @@ msgid ""
 "~x\t\tabort changes and quit editor\n"
 "~?\t\tthis message\n"
 ".\t\ton a line by itself ends input\n"
-msgstr ""
-"~q\t\tskribi la dosieron kaj eliri el la redaktilo\n"
+""
+msgstr "~q\t\tskribi la dosieron kaj eliri el la redaktilo\n"
 "~r dosiero\tlegi dosieron en la redaktilon\n"
 "~t adresoj\taldoni adresojn al la linio To:\n"
 "~u\t\tredakti la antaŭan linion denove\n"
@@ -2134,23 +2147,31 @@ msgstr ""
 "~x\t\tforĵeti ŝanĝojn kaj eliri el la redaktilo\n"
 "~?\t\tvidi ĉi tiun informon\n"
 ".\t\tsola en linio finas la enigon\n"
+""
 
 #: edit.c:190
-#, c-format
 msgid "%d: invalid message number.\n"
+""
 msgstr "%d: nevalida mesaĝnumero.\n"
+""
 
 #: edit.c:332
 msgid "(End message with a . on a line by itself)\n"
+""
 msgstr "(Finu mesaĝon per . sur propra linio)\n"
+""
 
 #: edit.c:391
 msgid "No mailbox.\n"
+""
 msgstr "Mankas poŝtfako.\n"
+""
 
 #: edit.c:395
 msgid "Message contains:\n"
+""
 msgstr "Mesaĝo enhavas:\n"
+""
 
 #. L10N:
 #. This entry is shown AFTER the message content,
@@ -2159,38 +2180,43 @@ msgstr "Mesaĝo enhavas:\n"
 #. but means "(press any key to continue using mutt)".
 #: edit.c:404 edit.c:461
 msgid "(continue)\n"
+""
 msgstr "(daŭrigi)\n"
+""
 
 #: edit.c:417
 msgid "missing filename.\n"
+""
 msgstr "mankas dosieronomo.\n"
+""
 
 #: edit.c:437
 msgid "No lines in message.\n"
+""
 msgstr "Nul linioj en mesaĝo.\n"
+""
 
 #: edit.c:454
-#, c-format
 msgid "Bad IDN in %s: '%s'\n"
+""
 msgstr "Malbona IDN en %s: '%s'\n"
+""
 
 #: edit.c:472
-#, c-format
 msgid "%s: unknown editor command (~? for help)\n"
+""
 msgstr "%s: nekonata redaktokomando (~? por helpo)\n"
+""
 
 #: editmsg.c:78
-#, c-format
 msgid "could not create temporary folder: %s"
 msgstr "Ne eblis krei dumtempan poŝtfakon: %s"
 
 #: editmsg.c:90
-#, c-format
 msgid "could not write temporary mail folder: %s"
 msgstr "Ne eblis skribi al dumtempa poŝtfako: %s"
 
 #: editmsg.c:110
-#, c-format
 msgid "could not truncate temporary mail folder: %s"
 msgstr "Ne eblis stumpigi dumtempan poŝtfakon: %s"
 
@@ -2203,13 +2229,11 @@ msgid "Message not modified!"
 msgstr "Mesaĝo ne modifita!"
 
 #: editmsg.c:142
-#, c-format
 msgid "Can't open message file: %s"
 msgstr "Ne eblas malfermi mesaĝodosieron: %s"
 
 #. L10N: %s is from strerror(errno)
 #: editmsg.c:150 editmsg.c:178
-#, c-format
 msgid "Can't append to folder: %s"
 msgstr "Ne eblas aldoni al poŝtfako: %s"
 
@@ -2221,87 +2245,105 @@ msgstr "Ŝalti flagon"
 msgid "Clear flag"
 msgstr "Malŝalti flagon"
 
+#: handler.c:75
+msgid "[-- Alternative Type #%d: "
+msgstr ""
+
+#: handler.c:77
+msgid "[-- Type: "
+msgstr ""
+
+#: handler.c:78
+msgid "%s/%s%s%s, Encoding: %s, Size: %s --]\n"
+""
+msgstr ""
+
 #: handler.c:1139
 msgid "[-- Error:  Could not display any parts of Multipart/Alternative! --]\n"
+""
 msgstr "[-- Eraro: Neniu parto de Multipart/Alternative estis montrebla! --]\n"
+""
 
 #: handler.c:1254
-#, c-format
 msgid "[-- Attachment #%d"
 msgstr "[-- Parto #%d"
-
-#: handler.c:1266
-#, c-format
-msgid "[-- Type: %s/%s, Encoding: %s, Size: %s --]\n"
-msgstr "[-- Speco: %s/%s, Kodado: %s, Grando: %s --]\n"
 
 #: handler.c:1282
 msgid "One or more parts of this message could not be displayed"
 msgstr "Unu aŭ pluraj partoj de ĉi tiu mesaĝo ne montriĝeblas"
 
 #: handler.c:1334
-#, c-format
 msgid "[-- Autoview using %s --]\n"
+""
 msgstr "[-- Aŭtomata vidigo per %s --]\n"
+""
 
 #: handler.c:1335
-#, c-format
 msgid "Invoking autoview command: %s"
 msgstr "Alvokas aŭtomatan vidigon per: %s"
 
 #: handler.c:1367
-#, c-format
 msgid "[-- Can't run %s. --]\n"
+""
 msgstr "[-- Ne eblas ruli %s. --]\n"
+""
 
 #: handler.c:1386 handler.c:1407
-#, c-format
 msgid "[-- Autoview stderr of %s --]\n"
+""
 msgstr "[-- Erareligo de %s --]\n"
+""
 
 #: handler.c:1446
 msgid "[-- Error: message/external-body has no access-type parameter --]\n"
+""
 msgstr "[-- Eraro: parto message/external ne havas parametro access-type --]\n"
+""
 
 #: handler.c:1467
-#, c-format
 msgid "[-- This %s/%s attachment "
 msgstr "[-- Ĉi tiu %s/%s-parto "
 
 #: handler.c:1474
-#, c-format
 msgid "(size %s bytes) "
 msgstr "(grando %s bitokoj) "
 
 #: handler.c:1476
 msgid "has been deleted --]\n"
+""
 msgstr "estas forviŝita --]\n"
+""
 
 #: handler.c:1481
-#, c-format
 msgid "[-- on %s --]\n"
+""
 msgstr "[-- je %s --]\n"
+""
 
 #: handler.c:1486
-#, c-format
 msgid "[-- name: %s --]\n"
+""
 msgstr "[-- nomo: %s --]\n"
+""
 
 #: handler.c:1499 handler.c:1515
-#, c-format
 msgid "[-- This %s/%s attachment is not included, --]\n"
+""
 msgstr "[-- Ĉi tiu %s/%s-parto ne estas inkluzivita, --]\n"
+""
 
 #: handler.c:1501
-msgid ""
-"[-- and the indicated external source has --]\n"
+msgid "[-- and the indicated external source has --]\n"
 "[-- expired. --]\n"
+""
 msgstr "[-- kaj la indikita ekstera fonto eksvalidiĝis. --]\n"
+""
 
 #: handler.c:1519
-#, c-format
 msgid "[-- and the indicated access-type %s is unsupported --]\n"
+""
 msgstr "[-- kaj Mutt ne kapablas je la indikita alirmaniero %s. --]\n"
+""
 
 #: handler.c:1632
 #, fuzzy
@@ -2312,6 +2354,10 @@ msgstr "Ne eblas malfermi dumtempan dosieron!"
 msgid "Unable to open temporary file!"
 msgstr "Ne eblas malfermi dumtempan dosieron!"
 
+#: handler.c:1718
+msgid "failed to re-open memstream!"
+msgstr ""
+
 #: handler.c:1802
 msgid "Error: multipart/signed has no protocol."
 msgstr "Eraro: multipart/signed ne havas parametron 'protocol'!"
@@ -2321,12 +2367,10 @@ msgid "[-- This is an attachment "
 msgstr "[-- Ĉi tiu estas parto "
 
 #: handler.c:1855
-#, c-format
 msgid "[-- %s/%s is unsupported "
 msgstr "[-- %s/%s ne estas konata "
 
 #: handler.c:1862
-#, c-format
 msgid "(use '%s' to view this part)"
 msgstr "(uzu '%s' por vidigi ĉi tiun parton)"
 
@@ -2335,7 +2379,6 @@ msgid "(need 'view-attachments' bound to key!)"
 msgstr "(bezonas klavodifinon por 'view-attachments'!)"
 
 #: headers.c:193
-#, c-format
 msgid "%s: unable to attach file"
 msgstr "%s: ne eblas aldoni dosieron"
 
@@ -2348,32 +2391,30 @@ msgid "<UNKNOWN>"
 msgstr "<NEKONATA>"
 
 #: help.c:364
-msgid ""
-"\n"
+msgid "\n"
 "Generic bindings:\n"
 "\n"
-msgstr ""
-"\n"
+""
+msgstr "\n"
 "Ĝeneralaj klavodifinoj:\n"
 "\n"
+""
 
 #: help.c:368
-msgid ""
-"\n"
+msgid "\n"
 "Unbound functions:\n"
 "\n"
-msgstr ""
-"\n"
+""
+msgstr "\n"
 "Funkcioj kiuj ne havas klavodifinon:\n"
 "\n"
+""
 
 #: help.c:376
-#, c-format
 msgid "Help for %s"
 msgstr "Helpo por %s"
 
 #: history.c:77 history.c:114 history.c:140
-#, c-format
 msgid "Bad history file format (line %d)"
 msgstr "Malbona strukturo de histori-dosiero (linio %d)"
 
@@ -2390,17 +2431,14 @@ msgid "badly formatted command string"
 msgstr ""
 
 #: hook.c:286
-#, c-format
 msgid "unhook: Can't do unhook * from within a hook."
 msgstr "unhook: Ne eblas fari unhook * de en hoko."
 
 #: hook.c:298
-#, c-format
 msgid "unhook: unknown hook type: %s"
 msgstr "unhook: nekonata speco de hook: %s"
 
 #: hook.c:304
-#, c-format
 msgid "unhook: Can't delete a %s from within a %s."
 msgstr "unhook: Ne eblas forviŝi %s de en %s."
 
@@ -2445,7 +2483,6 @@ msgid "Login failed."
 msgstr "Saluto malsukcesis."
 
 #: imap/auth_sasl.c:101 nntp.c:383 nntp.c:451 smtp.c:594
-#, c-format
 msgid "Authenticating (%s)..."
 msgstr "Rajtiĝas (%s)..."
 
@@ -2454,7 +2491,6 @@ msgid "SASL authentication failed."
 msgstr "SASL-rajtiĝo malsukcesis."
 
 #: imap/browse.c:57 imap/imap.c:569
-#, c-format
 msgid "%s is an invalid IMAP path"
 msgstr "%s ne estas valida IMAP-vojo"
 
@@ -2483,12 +2519,10 @@ msgid "Cannot rename root folder"
 msgstr "Ne eblas renomi radikan poŝtujon"
 
 #: imap/browse.c:286
-#, c-format
 msgid "Rename mailbox %s to: "
 msgstr "Renomi poŝtfakon %s al: "
 
 #: imap/browse.c:302
-#, c-format
 msgid "Rename failed: %s"
 msgstr "Renomado malsukcesis: %s"
 
@@ -2501,12 +2535,10 @@ msgid "Mailbox closed"
 msgstr "Poŝtfako fermita"
 
 #: imap/imap.c:125
-#, c-format
 msgid "CREATE failed: %s"
 msgstr "CREATE malsukcesis: %s"
 
 #: imap/imap.c:189
-#, c-format
 msgid "Closing connection to %s..."
 msgstr "Fermas la konekton al %s..."
 
@@ -2528,7 +2560,6 @@ msgid "Encrypted connection unavailable"
 msgstr "Ĉifrata konekto ne disponeblas"
 
 #: imap/imap.c:602 nntp.c:1472
-#, c-format
 msgid "Selecting %s..."
 msgstr "Elektas %s..."
 
@@ -2537,7 +2568,6 @@ msgid "Error opening mailbox"
 msgstr "Eraro dum malfermado de poŝtfako"
 
 #: imap/imap.c:808 imap/imap.c:2157 imap/message.c:879 muttlib.c:1755
-#, c-format
 msgid "Create %s?"
 msgstr "Ĉu krei %s?"
 
@@ -2546,12 +2576,10 @@ msgid "Expunge failed"
 msgstr "Forviŝo malsukcesis"
 
 #: imap/imap.c:1213
-#, c-format
 msgid "Marking %d messages deleted..."
 msgstr "Markas %d mesaĝojn kiel forviŝitajn..."
 
 #: imap/imap.c:1245
-#, c-format
 msgid "Saving changed messages... [%d/%d]"
 msgstr "Skribas ŝanĝitajn mesaĝojn... [%d/%d]"
 
@@ -2572,7 +2600,6 @@ msgid "imap_sync_mailbox: EXPUNGE failed"
 msgstr "imap_sync_mailbox: EXPUNGE malsukcesis"
 
 #: imap/imap.c:1807
-#, c-format
 msgid "Header search without header name: %s"
 msgstr "Ĉaposerĉo sen ĉaponomo: %s"
 
@@ -2581,27 +2608,22 @@ msgid "Bad mailbox name"
 msgstr "Malbona nomo por poŝtfako"
 
 #: imap/imap.c:1902
-#, c-format
 msgid "Subscribing to %s..."
 msgstr "Abonas %s..."
 
 #: imap/imap.c:1904
-#, c-format
 msgid "Unsubscribing from %s..."
 msgstr "Malabonas %s..."
 
 #: imap/imap.c:1914
-#, c-format
 msgid "Subscribed to %s"
 msgstr "Abonas %s"
 
 #: imap/imap.c:1916
-#, c-format
 msgid "Unsubscribed from %s"
 msgstr "Malabonis %s"
 
 #: imap/imap.c:2142 imap/message.c:843
-#, c-format
 msgid "Copying %d messages to %s..."
 msgstr "Kopias %d mesaĝojn al %s..."
 
@@ -2610,7 +2632,6 @@ msgid "Unable to fetch headers from this IMAP server version."
 msgstr "Ne eblas preni ĉapojn de ĉi tiu versio de IMAP-servilo."
 
 #: imap/message.c:108
-#, c-format
 msgid "Could not create temporary file %s"
 msgstr "Ne eblis krei dumtempan dosieron %s"
 
@@ -2633,7 +2654,6 @@ msgid "Uploading message..."
 msgstr "Alŝutas mesaĝon..."
 
 #: imap/message.c:847
-#, c-format
 msgid "Copying message %d to %s..."
 msgstr "Kopias mesaĝon %d al %s..."
 
@@ -2642,24 +2662,25 @@ msgid "Continue?"
 msgstr "Ĉu daŭrigi?"
 
 #: init.c:63 init.c:2088 pager.c:54
-#, c-format
 msgid "Not available in this menu."
 msgstr "Ne disponeblas en ĉi tiu menuo."
 
 #: init.c:479
-#, c-format
 msgid "Bad regexp: %s"
 msgstr "Malbona regulesprimo: %s"
 
-#: init.c:536
-#, c-format
-msgid "Not enough subexpressions for spam template"
-msgstr "Malsufiĉaj subesprimoj por spamŝablono"
+#: init.c:539
+msgid "Not enough subexpressions for template"
+msgstr ""
 
 #: init.c:632
-#, fuzzy, c-format
+#, fuzzy
 msgid "finish: too many arguments"
 msgstr "push: tro da argumentoj"
+
+#: init.c:900 init.c:908 init.c:929
+msgid "not enough arguments"
+msgstr ""
 
 #: init.c:898
 msgid "spam: no matching pattern"
@@ -2670,18 +2691,25 @@ msgid "nospam: no matching pattern"
 msgstr "nospam: neniu ŝablono kongruas"
 
 #: init.c:1044
-#, c-format
 msgid "%sgroup: missing -rx or -addr."
 msgstr "%s-grupo: mankas -rx aŭ -addr."
 
 #: init.c:1062
-#, c-format
 msgid "%sgroup: warning: bad IDN '%s'.\n"
+""
 msgstr "%s-grupo: averto: malbona IDN '%s'.\n"
+""
 
 #: init.c:1277
 msgid "attachments: no disposition"
 msgstr "attachments: mankas dispozicio"
+
+#: init.c:1381
+msgid "\n"
+"Current attachments settings:\n"
+"\n"
+""
+msgstr ""
 
 #: init.c:1315
 msgid "attachments: invalid disposition"
@@ -2700,66 +2728,58 @@ msgid "alias: no address"
 msgstr "adresaro: mankas adreso"
 
 #: init.c:1527
-#, c-format
 msgid "Warning: Bad IDN '%s' in alias '%s'.\n"
+""
 msgstr "Averto: Malbona IDN '%s' en adreso '%s'.\n"
+""
 
 #: init.c:1615
 msgid "invalid header field"
 msgstr "nevalida ĉaplinio"
 
 #: init.c:1668
-#, c-format
 msgid "%s: unknown sorting method"
 msgstr "%s: nekonata ordigmaniero"
 
 #: init.c:1783
-#, c-format
 msgid "mutt_restore_default(%s): error in regexp: %s\n"
+""
 msgstr "mutt_restore_default(%s): eraro en regula esprimo: %s\n"
+""
 
 #: init.c:1943 init.c:2136
-#, c-format
 msgid "%s is unset"
 msgstr "%s estas malŝaltita"
 
 #: init.c:2065 init.c:2181
-#, c-format
 msgid "%s: unknown variable"
 msgstr "%s: nekonata variablo"
 
 #: init.c:2074
-#, c-format
 msgid "prefix is illegal with reset"
 msgstr "reset: prefikso ne permesata"
 
 #: init.c:2080
-#, c-format
 msgid "value is illegal with reset"
 msgstr "reset: valoro ne permesata"
 
 #: init.c:2116 init.c:2128
-#, c-format
 msgid "Usage: set variable=yes|no"
 msgstr "Uzmaniero:  set variablo=yes|no"
 
 #: init.c:2136
-#, c-format
 msgid "%s is set"
 msgstr "%s estas enŝaltita"
 
 #: init.c:2247
-#, c-format
 msgid "Invalid value for option %s: \"%s\""
 msgstr "Nevalida valoro por opcio %s: \"%s\""
 
 #: init.c:2389
-#, c-format
 msgid "%s: invalid mailbox type"
 msgstr "%s: nevalida poŝtfakospeco"
 
 #: init.c:2420
-#, c-format
 msgid "%s: invalid value (%s)"
 msgstr "%s: nevalida valoro (%s)"
 
@@ -2772,42 +2792,35 @@ msgid "number overflow"
 msgstr "troo de nombro"
 
 #: init.c:2481
-#, c-format
 msgid "%s: invalid value"
 msgstr "%s: nevalida valoro"
 
 #: init.c:2525
-#, c-format
 msgid "%s: Unknown type."
 msgstr "%s: Nekonata speco."
 
 #: init.c:2572
-#, fuzzy, c-format
+#, fuzzy
 msgid "%s: invalid backend"
 msgstr "%s: nevalida valoro"
 
 #: init.c:2580
-#, c-format
 msgid "%s: unknown type"
 msgstr "%s: nekonata speco"
 
 #: init.c:2648
-#, c-format
 msgid "Error in %s, line %d: %s"
 msgstr "Eraro en %s, linio %d: %s"
 
 #: init.c:2671
-#, c-format
 msgid "source: errors in %s"
 msgstr "source: eraroj en %s"
 
 #: init.c:2672
-#, c-format
 msgid "source: reading aborted due to too many errors in %s"
 msgstr "source: legado ĉesis pro tro da eraroj en %s"
 
 #: init.c:2686
-#, c-format
 msgid "source: error at %s"
 msgstr "source: eraro ĉe %s"
 
@@ -2816,14 +2829,14 @@ msgid "source: too many arguments"
 msgstr "source: tro da argumentoj"
 
 #: init.c:2747
-#, c-format
 msgid "%s: unknown command"
 msgstr "%s: nekonata komando"
 
 #: init.c:3412
-#, c-format
 msgid "Error in command line: %s\n"
+""
 msgstr "Eraro en komandlinio: %s\n"
+""
 
 #: init.c:3516
 msgid "unable to determine home directory"
@@ -2858,7 +2871,6 @@ msgid "Key is not bound."
 msgstr "Klavo ne estas difinita."
 
 #: keymap.c:861
-#, c-format
 msgid "Key is not bound.  Press '%s' for help."
 msgstr "Klavo ne estas difinita.  Premu '%s' por helpo."
 
@@ -2867,7 +2879,6 @@ msgid "push: too many arguments"
 msgstr "push: tro da argumentoj"
 
 #: keymap.c:902
-#, c-format
 msgid "%s: no such menu"
 msgstr "%s: nekonata menuo"
 
@@ -2880,7 +2891,6 @@ msgid "bind: too many arguments"
 msgstr "bind: tro da argumentoj"
 
 #: keymap.c:1027
-#, c-format
 msgid "%s: no such function in map"
 msgstr "%s: nekonata funkcio"
 
@@ -2897,7 +2907,6 @@ msgid "exec: no arguments"
 msgstr "exec: mankas argumentoj"
 
 #: keymap.c:1118
-#, c-format
 msgid "%s: no such function"
 msgstr "%s: funkcio ne ekzistas"
 
@@ -2906,7 +2915,6 @@ msgid "Enter keys (^G to abort): "
 msgstr "Donu ŝlosilojn (^G por nuligi): "
 
 #: keymap.c:1144
-#, c-format
 msgid "Char = %s, Octal = %o, Decimal = %d"
 msgstr "Signo = %s, Okume = %o, Dekume = %d"
 
@@ -2919,44 +2927,27 @@ msgid "Out of memory!"
 msgstr "Mankas sufiĉa memoro!"
 
 #: main.c:86
-msgid ""
-"usage: mutt [<options>] [-z] [-f <file> | -yZ]\n"
+msgid "usage: mutt [<options>] [-z] [-f <file> | -yZ]\n"
 "       mutt [<options>] [-Ex] [-Hi <file>] [-s <subj>] [-bc <addr>] [-a <file> [...] --] <addr> [...]\n"
 "       mutt [<options>] [-x] [-s <subj>] [-bc <addr>] [-a <file> [...] --] <addr> [...] < message\n"
 "       mutt [<options>] -p\n"
 "       mutt [<options>] -A <alias> [...]\n"
 "       mutt [<options>] -Q <query> [...]\n"
-"       mutt [<options>] -D\n"
+"       mutt [<options>] -D [-S]\n"
 "       mutt -v[v]\n"
+""
 msgstr ""
-"Uzmanieroj: mutt [<opcioj>] [-z] [-f <dosiero> | -yZ]\n"
-"            mutt [<opcioj>] [-Ex] [-Hi <dosiero>] [-s <temo>] [-bc <adreso>]\n"
-"                 [-a <dosiero> [...] --] <adreso> [...]\n"
-"            mutt [<opcioj>] [-x] [-s <temo>] [-bc <adreso>]\n"
-"                 [-a <dosiero> [...] --] <adreso> [...] < mesaĝo\n"
-"            mutt [<opcioj>] -p\n"
-"            mutt [<opcioj>] -A <nomo> [...]\n"
-"            mutt [<opcioj>] -Q <variablo> [...]\n"
-"            mutt [<opcioj>] -D\n"
-"            mutt -v[v]\n"
 
 #: main.c:95
-msgid ""
-"options:\n"
+msgid "options:\n"
 "  -A <alias>\texpand the given alias\n"
 "  -a <file> [...] --\tattach file(s) to the message\n"
 "\t\tthe list of files must be terminated with the \"--\" sequence\n"
 "  -b <address>\tspecify a blind carbon-copy (BCC) address\n"
 "  -c <address>\tspecify a carbon-copy (CC) address\n"
-"  -D\t\tprint the value of all variables to stdout"
+"  -D\t\tprint the value of all variables to stdout\n"
+"  -D -S\t\tlike -D, but hide the value of sensitive variables"
 msgstr ""
-"Opcioj:\n"
-"  -A <nomo>      traduki la nomon per la adresaro\n"
-"  -a <dosiero> [...] --\n"
-"                 aldoni dosiero(j)n al la mesaĝo\n"
-"  -b <adreso>    specifi adreson por blinda kopio (BCC)\n"
-"  -c <adreso>    specifi adreson por kopio (CC)\n"
-"  -D             montri en ĉefeligujo la valorojn de ĉiuj variabloj"
 
 #: main.c:104
 msgid "  -d <level>\tlog debugging output to ~/.muttdebug0"
@@ -2964,8 +2955,7 @@ msgstr "  -d <nivelo>    skribi sencimigan eligon al ~/.muttdebug0"
 
 #: main.c:107
 #, fuzzy
-msgid ""
-"  -E\t\tedit the draft (-H) or include (-i) file\n"
+msgid "  -E\t\tedit the draft (-H) or include (-i) file\n"
 "  -e <command>\tspecify a command to be executed after initialization\n"
 "  -f <file>\tspecify which mailbox to read\n"
 "  -F <file>\tspecify an alternate muttrc file\n"
@@ -2976,8 +2966,7 @@ msgid ""
 "  -m <type>\tspecify a default mailbox type\n"
 "  -n\t\tcauses Mutt not to read the system Muttrc\n"
 "  -p\t\trecall a postponed message"
-msgstr ""
-"  -E\t\tredakti la malnetaĵon (-H) aŭ la inkluzivitan dosieron (-i)\n"
+msgstr "  -E\t\tredakti la malnetaĵon (-H) aŭ la inkluzivitan dosieron (-i)\n"
 "  -e <komando>   specifi komandon por ruligi post la starto\n"
 "  -f <dosiero>   specifi la poŝtfakon por malfermi\n"
 "  -F <dosiero>   specifi alian dosieron muttrc\n"
@@ -2988,8 +2977,7 @@ msgstr ""
 "  -p             revoki prokrastitan mesaĝon"
 
 #: main.c:119
-msgid ""
-"  -Q <variable>\tquery a configuration variable\n"
+msgid "  -Q <variable>\tquery a configuration variable\n"
 "  -R\t\topen mailbox in read-only mode\n"
 "  -s <subj>\tspecify a subject (must be in quotes if it has spaces)\n"
 "  -v\t\tshow version and compile-time definitions\n"
@@ -2998,8 +2986,7 @@ msgid ""
 "  -z\t\texit immediately if there are no messages in the mailbox\n"
 "  -Z\t\topen the first folder with new message, exit immediately if none\n"
 "  -h\t\tthis help message"
-msgstr ""
-"  -Q <variablo>  pridemandi la valoron de agordo-variablo\n"
+msgstr "  -Q <variablo>  pridemandi la valoron de agordo-variablo\n"
 "  -R             malfermi poŝtfakon nurlege\n"
 "  -s <temo>      specifi temlinion (en citiloj, se ĝi enhavas spacetojn)\n"
 "  -v             montri version kaj parametrojn de la tradukaĵo\n"
@@ -3014,45 +3001,54 @@ msgid "Error initializing terminal."
 msgstr "Eraro dum startigo de la terminalo."
 
 #: main.c:307
-#, c-format
 msgid "Error: value '%s' is invalid for -d.\n"
+""
 msgstr "Eraro: valoro '%s' ne validas por '-d'.\n"
+""
 
 #: main.c:310
-#, c-format
 msgid "Debugging at level %d.\n"
+""
 msgstr "Sencimigo ĉe la nivelo %d.\n"
+""
 
 #: main.c:312
 msgid "DEBUG was not defined during compilation.  Ignored.\n"
+""
 msgstr "DEBUG ne estis difinita por la tradukado.  Ignoriĝas.\n"
+""
 
 #: main.c:500
-#, c-format
 msgid "%s does not exist. Create it?"
 msgstr "%s ne ekzistas.  Ĉu krei ĝin?"
 
 #: main.c:504 newsrc.c:968
-#, c-format
 msgid "Can't create %s: %s."
 msgstr "Ne eblas krei %s: %s."
 
 #: main.c:544
 msgid "Failed to parse mailto: link\n"
+""
 msgstr "Malsukcesis analizi 'mailto:'-ligon\n"
+""
 
 #: main.c:556
 msgid "No recipients specified.\n"
+""
 msgstr "Nenia ricevonto specifita.\n"
+""
 
 #: main.c:582
 msgid "Cannot use -E flag with stdin\n"
+""
 msgstr "Ne eblas uzi opcio '-E' kun ĉefenigujo\n"
+""
 
 #: main.c:735
-#, c-format
 msgid "%s: unable to attach file.\n"
+""
 msgstr "%s: ne eblas aldoni dosieron.\n"
+""
 
 #: main.c:816
 msgid "No mailbox with new mail."
@@ -3067,7 +3063,6 @@ msgid "Mailbox is empty."
 msgstr "Poŝtfako estas malplena."
 
 #: mbox.c:120 mbox.c:271 mh.c:1297 mx.c:671
-#, c-format
 msgid "Reading %s..."
 msgstr "Legiĝas %s..."
 
@@ -3076,9 +3071,10 @@ msgid "Mailbox is corrupt!"
 msgstr "Poŝtfako estas fuŝita!"
 
 #: mbox.c:457
-#, c-format
 msgid "Couldn't lock %s\n"
+""
 msgstr "Ne eblis ŝlosi %s\n"
+""
 
 #: mbox.c:502 mbox.c:517
 msgid "Can't write message"
@@ -3097,7 +3093,6 @@ msgid "sync: mbox modified, but no modified messages! (report this bug)"
 msgstr "sync: mbox modifita, sed mankas modifitaj mesaĝoj! (Raportu ĉi tiun cimon.)"
 
 #: mbox.c:915 mh.c:2026 mutt_notmuch.c:1628 mx.c:752
-#, c-format
 msgid "Writing %s..."
 msgstr "Skribiĝas %s..."
 
@@ -3106,7 +3101,6 @@ msgid "Committing changes..."
 msgstr "Skribiĝas ŝanĝoj..."
 
 #: mbox.c:1085
-#, c-format
 msgid "Write failed!  Saved partial mailbox to %s"
 msgstr "Skribo malsukcesis!  Skribis partan poŝtfakon al %s"
 
@@ -3184,7 +3178,6 @@ msgid "Tagging is not supported."
 msgstr "Markado ne funkcias."
 
 #: mh.c:1277
-#, c-format
 msgid "Scanning %s..."
 msgstr "Traserĉas %s..."
 
@@ -3197,17 +3190,14 @@ msgid "_maildir_commit_message(): unable to set time on file"
 msgstr "_maildir_commit_message(): ne eblas ŝanĝi tempon de dosiero"
 
 #: muttlib.c:846
-#, c-format
 msgid "mutt_randbuf len=%zu"
 msgstr ""
 
 #: muttlib.c:862
-#, c-format
 msgid "open /dev/urandom: %s"
 msgstr ""
 
 #: muttlib.c:868
-#, c-format
 msgid "read /dev/urandom: %s"
 msgstr ""
 
@@ -3246,7 +3236,6 @@ msgid "Can't save message to POP mailbox."
 msgstr "Ne eblas skribi mesaĝon al POP-poŝtfako."
 
 #: muttlib.c:1722
-#, c-format
 msgid "Append messages to %s?"
 msgstr "Ĉu aldoni mesaĝojn al %s?"
 
@@ -3256,32 +3245,35 @@ msgid "Can't save message to news server."
 msgstr "Ne eblas lasi mesaĝojn ĉe la servilo."
 
 #: muttlib.c:1742
-#, c-format
 msgid "%s is not a mailbox!"
 msgstr "%s ne estas poŝtfako!"
 
 #: mutt_notmuch.c:269 mutt_notmuch.c:1717
-#, fuzzy, c-format
+#, fuzzy
 msgid "failed to parse notmuch uri: %s"
 msgstr "Malsukcesis analizi 'mailto:'-ligon\n"
+""
 
 #: mutt_notmuch.c:389
-#, c-format
 msgid "failed to parse notmuch query type: %s"
 msgstr ""
 
+#: mutt_notmuch.c:530
+msgid "Invalid nm_query_window_timebase value (valid values are: hour, day, week, month or year)."
+msgstr ""
+
 #: mutt_notmuch.c:408
-#, fuzzy, c-format
+#, fuzzy
 msgid "failed to parse notmuch limit: %s"
 msgstr "Malsukcesis analizi 'mailto:'-ligon\n"
+""
 
 #: mutt_notmuch.c:477
-#, fuzzy, c-format
+#, fuzzy
 msgid "Waiting for notmuch DB... (%d sec)"
 msgstr "Atendas fcntl-ŝloson... %d"
 
 #: mutt_notmuch.c:484
-#, c-format
 msgid "Cannot open notmuch database: %s: %s"
 msgstr ""
 
@@ -3291,7 +3283,7 @@ msgid "unknown reason"
 msgstr "nekonata eraro"
 
 #: mutt_notmuch.c:943
-#, fuzzy, c-format
+#, fuzzy
 msgid "Reading messages..."
 msgstr "Sendas mesaĝon..."
 
@@ -3326,7 +3318,6 @@ msgid "Error setting SASL external user name"
 msgstr "Eraro dum agordo de ekstera uzantonomo de SASL"
 
 #: mutt_socket.c:103 mutt_socket.c:181
-#, c-format
 msgid "Connection to %s closed"
 msgstr "Konekto al %s fermita"
 
@@ -3339,32 +3330,26 @@ msgid "Preconnect command failed."
 msgstr "Antaŭkonekta komando malsukcesis."
 
 #: mutt_socket.c:404 mutt_socket.c:409 mutt_socket.c:425 mutt_socket.c:430
-#, c-format
 msgid "Error talking to %s (%s)"
 msgstr "Eraro dum komunikado kun %s (%s)"
 
 #: mutt_socket.c:484 mutt_socket.c:543
-#, c-format
 msgid "Bad IDN \"%s\"."
 msgstr "Malbona IDN \"%s\"."
 
 #: mutt_socket.c:492 mutt_socket.c:551
-#, c-format
 msgid "Looking up %s..."
 msgstr "Serĉas pri %s..."
 
 #: mutt_socket.c:502 mutt_socket.c:560
-#, c-format
 msgid "Could not find the host \"%s\""
 msgstr "Ne eblis trovi la servilon \"%s\""
 
 #: mutt_socket.c:508 mutt_socket.c:566
-#, c-format
 msgid "Connecting to %s..."
 msgstr "Konektiĝas al %s..."
 
 #: mutt_socket.c:590
-#, c-format
 msgid "Could not connect to %s (%s)."
 msgstr "Ne eblis konektiĝi al %s (%s)."
 
@@ -3373,12 +3358,12 @@ msgid "Failed to find enough entropy on your system"
 msgstr "Ne trovis sufiĉe da entropio en via sistemo"
 
 #: mutt_ssl.c:258
-#, c-format
 msgid "Filling entropy pool: %s...\n"
+""
 msgstr "Plenigas entropiujon: %s...\n"
+""
 
 #: mutt_ssl.c:266
-#, c-format
 msgid "%s has insecure permissions!"
 msgstr "%s havas malsekurajn permesojn!"
 
@@ -3398,7 +3383,6 @@ msgid "I/O error"
 msgstr "eraro ĉe legado aŭ skribado"
 
 #: mutt_ssl.c:479
-#, c-format
 msgid "SSL failed: %s"
 msgstr "SSL malsukcesis: %s"
 
@@ -3407,7 +3391,6 @@ msgid "Unknown"
 msgstr "Nekonata"
 
 #: mutt_ssl.c:621 mutt_ssl_gnutls.c:600
-#, c-format
 msgid "[unable to calculate]"
 msgstr "[ne eblas kalkuli]"
 
@@ -3432,12 +3415,10 @@ msgid "cannot get certificate common name"
 msgstr "ne eblas akiri atestilan normalan nomon"
 
 #: mutt_ssl.c:875
-#, c-format
 msgid "certificate owner does not match hostname %s"
 msgstr "posedanto de atestilo ne kongruas kun komputilretnomo %s"
 
 #: mutt_ssl.c:940
-#, c-format
 msgid "Certificate host check failed: %s"
 msgstr "Malsukcesis kontrolo de gastiganta atestilo: %s"
 
@@ -3450,27 +3431,22 @@ msgid "This certificate was issued by:"
 msgstr "Ĉi tiu atestilo estis eldonita de:"
 
 #: mutt_ssl.c:1014 mutt_ssl_gnutls.c:940
-#, c-format
 msgid "This certificate is valid"
 msgstr "Ĉi tiu atestilo estas valida"
 
 #: mutt_ssl.c:1015 mutt_ssl_gnutls.c:943
-#, c-format
 msgid "   from %s"
 msgstr "     de %s"
 
 #: mutt_ssl.c:1017 mutt_ssl_gnutls.c:947
-#, c-format
 msgid "     to %s"
 msgstr "     al %s"
 
 #: mutt_ssl.c:1023
-#, c-format
 msgid "Fingerprint: %s"
 msgstr "Fingrospuro: %s"
 
 #: mutt_ssl.c:1026 mutt_ssl_gnutls.c:984
-#, c-format
 msgid "SSL Certificate check (certificate %d of %d in chain)"
 msgstr "Kontrolo de SSL-atestilo (%d de %d en ĉeno)"
 
@@ -3511,7 +3487,6 @@ msgid "Explicit ciphersuite selection via $ssl_ciphers not supported"
 msgstr "Rekta elekto de ĉifra algoritmo per $ssl_ciphers ne subtenatas"
 
 #: mutt_ssl_gnutls.c:467
-#, c-format
 msgid "SSL/TLS connection using %s (%s/%s/%s)"
 msgstr "SSL/TLS-konekto per %s (%s/%s/%s)"
 
@@ -3528,12 +3503,10 @@ msgid "Warning: Server certificate was signed using an insecure algorithm"
 msgstr "Averto: servila atestilo estas subskribita kun malsekura algoritmo"
 
 #: mutt_ssl_gnutls.c:952
-#, c-format
 msgid "SHA1 Fingerprint: %s"
 msgstr "SHA1-fingrospuro: %s"
 
 #: mutt_ssl_gnutls.c:955
-#, c-format
 msgid "MD5 Fingerprint: %s"
 msgstr "MD5-fingrospuro: %s"
 
@@ -3562,7 +3535,6 @@ msgid "Unable to get certificate from peer"
 msgstr "Ne eblas akiri SSL-atestilon"
 
 #: mutt_ssl_gnutls.c:1087
-#, c-format
 msgid "Certificate verification error (%s)"
 msgstr "Eraro dum kontrolo de atestilo (%s)"
 
@@ -3571,36 +3543,32 @@ msgid "Certificate is not X.509"
 msgstr "Atestilo ne estas X.509"
 
 #: mutt_tunnel.c:73
-#, c-format
 msgid "Connecting with \"%s\"..."
 msgstr "Konektiĝas per \"%s\"..."
 
 #: mutt_tunnel.c:149
-#, c-format
 msgid "Tunnel to %s returned error %d (%s)"
 msgstr "Tunelo al %s donis eraron %d (%s)"
 
 #: mutt_tunnel.c:167 mutt_tunnel.c:183
-#, c-format
 msgid "Tunnel error talking to %s: %s"
 msgstr "Tuneleraro dum komunikado kun %s: %s"
 
 #: mx.c:167
-#, c-format
 msgid "Lock count exceeded, remove lock for %s?"
 msgstr "Tro da ŝlosoj; ĉu forigi la ŝloson por %s?"
 
 #: mx.c:179
-#, c-format
 msgid "Can't dotlock %s.\n"
+""
 msgstr "Ne eblas ŝlosi %s.\n"
+""
 
 #: mx.c:235
 msgid "Timeout exceeded while attempting fcntl lock!"
 msgstr "Tro da tempo pasis dum provado akiri fcntl-ŝloson!"
 
 #: mx.c:241
-#, c-format
 msgid "Waiting for fcntl lock... %d"
 msgstr "Atendas fcntl-ŝloson... %d"
 
@@ -3609,9 +3577,12 @@ msgid "Timeout exceeded while attempting flock lock!"
 msgstr "Tro da tempo pasis dum provado akiri flock-ŝloson!"
 
 #: mx.c:275
-#, c-format
 msgid "Waiting for flock attempt... %d"
 msgstr "Atendas flock-ŝloson... %d"
+
+#: mx.c:705
+msgid "Reading from %s interrupted..."
+msgstr ""
 
 #: mx.c:784
 msgid "message(s) not deleted"
@@ -3626,22 +3597,18 @@ msgid "Mark all articles read?"
 msgstr ""
 
 #: mx.c:900
-#, c-format
 msgid "Move read messages to %s?"
 msgstr "Ĉu movi legitajn mesaĝojn al %s?"
 
 #: mx.c:916 mx.c:1207
-#, c-format
 msgid "Purge %d deleted message?"
 msgstr "Ĉu forpurigi %d forviŝitan mesaĝon?"
 
 #: mx.c:916 mx.c:1207
-#, c-format
 msgid "Purge %d deleted messages?"
 msgstr "Ĉu forpurigi %d forviŝitajn mesaĝojn?"
 
 #: mx.c:937
-#, c-format
 msgid "Moving read messages to %s..."
 msgstr "Movas legitajn mesaĝojn al %s..."
 
@@ -3650,17 +3617,14 @@ msgid "Mailbox is unchanged."
 msgstr "Poŝtfako estas neŝanĝita."
 
 #: mx.c:1051
-#, c-format
 msgid "%d kept, %d moved, %d deleted."
 msgstr "%d retenite, %d movite, %d forviŝite."
 
 #: mx.c:1054 mx.c:1259
-#, c-format
 msgid "%d kept, %d deleted."
 msgstr "%d retenite, %d forviŝite."
 
 #: mx.c:1182
-#, c-format
 msgid " Press '%s' to toggle write"
 msgstr " Premu '%s' por (mal)ŝalti skribon"
 
@@ -3669,7 +3633,6 @@ msgid "Use 'toggle-write' to re-enable write!"
 msgstr "Uzu 'toggle-write' por reebligi skribon!"
 
 #: mx.c:1186
-#, c-format
 msgid "Mailbox is marked unwritable. %s"
 msgstr "Poŝtfako estas markita kiel neskribebla. %s"
 
@@ -3690,7 +3653,7 @@ msgid "No news server defined!"
 msgstr ""
 
 #: newsrc.c:900
-#, fuzzy, c-format
+#, fuzzy
 msgid "%s is an invalid news server specification!"
 msgstr "%s ne estas valida POP-vojo"
 
@@ -3704,7 +3667,7 @@ msgid "Server doesn't support reader mode."
 msgstr "SMTP-servilo ne akceptas rajtiĝon"
 
 #: nntp.c:583
-#, fuzzy, c-format
+#, fuzzy
 msgid "%s authentication failed."
 msgstr "SASL-rajtiĝo malsukcesis."
 
@@ -3714,7 +3677,7 @@ msgid "Could not switch to reader mode."
 msgstr "Ne eblis skribi al dumtempa poŝtfako: %s"
 
 #: nntp.c:668
-#, fuzzy, c-format
+#, fuzzy
 msgid "Connected to %s. %s"
 msgstr "Konektiĝas al %s..."
 
@@ -3728,7 +3691,7 @@ msgid "Posting is NOT ok."
 msgstr ""
 
 #: nntp.c:788
-#, fuzzy, c-format
+#, fuzzy
 msgid "Connection to %s lost. Reconnect?"
 msgstr "Konekto al %s fermita"
 
@@ -3738,32 +3701,29 @@ msgid "Fetching list of articles..."
 msgstr "Prenas liston de mesaĝoj..."
 
 #: nntp.c:1443
-#, fuzzy, c-format
+#, fuzzy
 msgid "%s is an invalid newsgroup specification!"
 msgstr "%s ne estas valida POP-vojo"
 
 #: nntp.c:1461
-#, c-format
 msgid "Newsgroup %s not found on the server."
 msgstr ""
 
 #: nntp.c:1483
-#, c-format
 msgid "Newsgroup %s has been removed from the server."
 msgstr ""
 
 #: nntp.c:1639
-#, c-format
 msgid "Article %d not found on the server."
 msgstr ""
 
 #: nntp.c:1725 nntp.c:1754
-#, fuzzy, c-format
+#, fuzzy
 msgid "Can't post article: %s"
 msgstr "Ne eblas ekzameni la dosieron %s: %s"
 
 #: nntp.c:1878
-#, fuzzy, c-format
+#, fuzzy
 msgid "Loading list of groups from server %s..."
 msgstr "Forviŝas mesaĝojn de la servilo..."
 
@@ -3821,67 +3781,76 @@ msgstr "Ne plu da citita teksto."
 msgid "No more unquoted text after quoted text."
 msgstr "Ne plu da necitita teksto post citita teksto."
 
+#. boundary es un parámetro definido por el estándar MIME
 #: parse.c:588
 msgid "multipart message has no boundary parameter!"
 msgstr "Plurparta mesaĝo ne havas limparametron!"
 
+#: pattern.c:186
+msgid "Error opening memstream"
+msgstr ""
+
+#: pattern.c:232
+msgid "Error re-opening memstream"
+msgstr ""
+
+#: pattern.c:238
+msgid "Error opening /dev/null"
+msgstr ""
+
 #: pattern.c:317 pattern.c:637
-#, c-format
 msgid "Error in expression: %s"
 msgstr "Eraro en esprimo: %s"
 
 #: pattern.c:322 pattern.c:642
-#, c-format
 msgid "Empty expression"
 msgstr "Malplena esprimo"
 
+#: pattern.c:508 pattern.c:600
+msgid "No current message"
+msgstr ""
+
+#: pattern.c:623
+msgid "No Context"
+msgstr ""
+
 #: pattern.c:455
-#, c-format
 msgid "Invalid day of month: %s"
 msgstr "Nevalida tago de monato: %s"
 
 #: pattern.c:469
-#, c-format
 msgid "Invalid month: %s"
 msgstr "Nevalida monato: %s"
 
 #: pattern.c:621
-#, c-format
 msgid "Invalid relative date: %s"
 msgstr "Nevalida relativa dato: %s"
 
 #: pattern.c:869 pattern.c:1028
-#, c-format
 msgid "error in pattern at: %s"
 msgstr "eraro en ŝablono ĉe: %s"
 
 #: pattern.c:896
-#, c-format
 msgid "missing pattern: %s"
 msgstr "mankas ŝablono: %s"
 
 #: pattern.c:906
-#, c-format
 msgid "mismatched brackets: %s"
 msgstr "krampoj ne kongruas: %s"
 
 #: pattern.c:966
-#, c-format
 msgid "%c: invalid pattern modifier"
 msgstr "%c: nevalida ŝablona modifilo"
 
 #: pattern.c:972
-#, c-format
 msgid "%c: not supported in this mode"
 msgstr "%c: ne funkcias en ĉi tiu reĝimo"
 
 #: pattern.c:985
-#, c-format
 msgid "missing parameter"
 msgstr "parametro mankas"
 
 #: pattern.c:1001
-#, c-format
 msgid "mismatched parenthesis: %s"
 msgstr "krampoj ne kongruas: %s"
 
@@ -3890,7 +3859,6 @@ msgid "empty pattern"
 msgstr "malplena ŝablono"
 
 #: pattern.c:1317
-#, c-format
 msgid "error: unknown op %d (report this error)."
 msgstr "eraro: nekonata funkcio %d (raportu ĉi tiun cimon)"
 
@@ -3932,27 +3900,29 @@ msgstr "PGP-pasfrazo forgesita."
 
 #: pgp.c:449
 msgid "[-- Error: unable to create PGP subprocess! --]\n"
+""
 msgstr "[-- Eraro: ne eblas krei PGP-subprocezon! --]\n"
+""
 
 #: pgp.c:483 pgp.c:752 pgp.c:964
-msgid ""
-"[-- End of PGP output --]\n"
+msgid "[-- End of PGP output --]\n"
 "\n"
-msgstr ""
-"[-- Fino de PGP-eligo --]\n"
+""
+msgstr "[-- Fino de PGP-eligo --]\n"
 "\n"
+""
 
 #: pgp.c:860
 msgid "Internal error.  Please submit a bug report."
 msgstr "*Programeraro*.  Bonvolu raporti."
 
 #: pgp.c:921
-msgid ""
-"[-- Error: could not create a PGP subprocess! --]\n"
+msgid "[-- Error: could not create a PGP subprocess! --]\n"
 "\n"
-msgstr ""
-"[-- Eraro: ne eblas krei PGP-subprocezon! --]\n"
+""
+msgstr "[-- Eraro: ne eblas krei PGP-subprocezon! --]\n"
 "\n"
+""
 
 #: pgp.c:952 pgp.c:976
 msgid "Decryption failed"
@@ -3980,7 +3950,6 @@ msgstr "(e)nteksta"
 
 #. L10N: PGP options (inline) (opportunistic encryption is on)
 #: pgp.c:1744
-#, c-format
 msgid "PGP (s)ign, sign (a)s, %s format, (c)lear, or (o)ppenc mode off? "
 msgstr "PGP (s)ubskribi, subskribi (k)iel, %s, (f)orgesi, aŭ ne (o)ppenc-moduso? "
 
@@ -4004,7 +3973,6 @@ msgstr "skffo"
 
 #. L10N: PGP options (inline) (opportunistic encryption is off)
 #: pgp.c:1776
-#, c-format
 msgid "PGP (e)ncrypt, (s)ign, sign (a)s, (b)oth, %s format, (c)lear, or (o)ppenc mode? "
 msgstr "PGP ĉ(i)fri, (s)ubskribi, (k)iel, (a)mbaŭ, %s, (f)or, aŭ (o)ppenc-moduso? "
 
@@ -4028,7 +3996,6 @@ msgstr "iskaffo"
 
 #. L10N: PGP options (inline)
 #: pgp.c:1804
-#, c-format
 msgid "PGP (e)ncrypt, (s)ign, sign (a)s, (b)oth, %s format, or (c)lear? "
 msgstr "PGP ĉ(i)fri, (s)ubskribi, subskribi (k)iel, (a)mbaŭ, %s, aŭ (f)orgesi? "
 
@@ -4059,12 +4026,10 @@ msgid "All matching keys are expired, revoked, or disabled."
 msgstr "Ĉiuj kongruaj ŝlosiloj estas eksvalidiĝintaj, revokitaj, aŭ malŝaltitaj."
 
 #: pgpkey.c:532
-#, c-format
 msgid "PGP keys matching <%s>."
 msgstr "PGP-ŝlosiloj kiuj kongruas kun <%s>."
 
 #: pgpkey.c:534
-#, c-format
 msgid "PGP keys matching \"%s\"."
 msgstr "PGP-ŝlosiloj kiuj kongruas kun \"%s\"."
 
@@ -4073,12 +4038,10 @@ msgid "Can't open /dev/null"
 msgstr "Ne eblas malfermi /dev/null"
 
 #: pgpkey.c:778
-#, c-format
 msgid "PGP Key %s."
 msgstr "PGP-ŝlosilo %s."
 
 #: pop.c:102 pop_lib.c:210
-#, c-format
 msgid "Command TOP is not supported by server."
 msgstr "Servilo ne havas la komandon TOP."
 
@@ -4087,17 +4050,14 @@ msgid "Can't write header to temporary file!"
 msgstr "Ne eblas skribi la ĉapaĵon al dumtempa dosiero!"
 
 #: pop.c:276 pop_lib.c:212
-#, c-format
 msgid "Command UIDL is not supported by server."
 msgstr "Servilo ne havas la komandon UIDL."
 
 #: pop.c:296
-#, c-format
 msgid "%d messages have been lost. Try reopening the mailbox."
 msgstr "%d mesaĝoj perdiĝis.  Provu remalfermi la poŝtfakon."
 
 #: pop.c:411 pop.c:808
-#, c-format
 msgid "%s is an invalid POP path"
 msgstr "%s ne estas valida POP-vojo"
 
@@ -4126,7 +4086,6 @@ msgid "Delete messages from server?"
 msgstr "Ĉu forviŝi mesaĝojn de servilo?"
 
 #: pop.c:865
-#, c-format
 msgid "Reading new messages (%d bytes)..."
 msgstr "Legas novajn mesaĝojn (%d bitokojn)..."
 
@@ -4135,7 +4094,6 @@ msgid "Error while writing mailbox!"
 msgstr "Eraro dum skribado de poŝtfako!"
 
 #: pop.c:911
-#, c-format
 msgid "%s [%d of %d messages read]"
 msgstr "%s [%d el %d mesaĝoj legitaj]"
 
@@ -4156,21 +4114,20 @@ msgid "APOP authentication failed."
 msgstr "APOP-rajtiĝo malsukcesis."
 
 #: pop_auth.c:278
-#, c-format
 msgid "Command USER is not supported by server."
 msgstr "Servilo ne havas la komandon USER."
 
 #: pop_lib.c:57
-#, c-format
 msgid "Invalid POP URL: %s\n"
+""
 msgstr "Nevalida POP-adreso: %s\n"
+""
 
 #: pop_lib.c:208
 msgid "Unable to leave messages on server."
 msgstr "Ne eblas lasi mesaĝojn ĉe la servilo."
 
 #: pop_lib.c:238
-#, c-format
 msgid "Error connecting to server: %s"
 msgstr "Eraro dum konektiĝo al servilo: %s"
 
@@ -4231,7 +4188,6 @@ msgid "Query command not defined."
 msgstr "Demandokomando ne difinita."
 
 #: query.c:321
-#, c-format
 msgid "Query"
 msgstr "Demando"
 
@@ -4240,7 +4196,6 @@ msgid "Query: "
 msgstr "Demando: "
 
 #: query.c:341 query.c:367
-#, c-format
 msgid "Query '%s'"
 msgstr "Demando '%s'"
 
@@ -4261,7 +4216,6 @@ msgid "Attachment saved."
 msgstr "Parto skribita."
 
 #: recvattach.c:607
-#, c-format
 msgid "WARNING!  You are about to overwrite %s, continue?"
 msgstr "AVERTO!  Vi estas surskribonta %s; ĉu daŭrigi?"
 
@@ -4278,7 +4232,6 @@ msgid "Pipe to: "
 msgstr "Trakti per: "
 
 #: recvattach.c:729
-#, c-format
 msgid "I don't know how to print %s attachments!"
 msgstr "Mi ne scias kiel presi %s-partojn!"
 
@@ -4336,7 +4289,6 @@ msgid "Error bouncing messages!"
 msgstr "Eraro dum redirektado de mesaĝoj!"
 
 #: recvcmd.c:441
-#, c-format
 msgid "Can't open temporary file %s."
 msgstr "Ne eblas malfermi dumtempan dosieron %s."
 
@@ -4353,7 +4305,6 @@ msgid "Forward MIME encapsulated?"
 msgstr "Ĉu plusendi MIME-pakita?"
 
 #: recvcmd.c:619 recvcmd.c:888
-#, c-format
 msgid "Can't create %s."
 msgstr "Ne eblas krei %s."
 
@@ -4368,6 +4319,10 @@ msgstr "Neniu dissendolisto trovita!"
 #: recvcmd.c:867
 msgid "Can't decode all tagged attachments.  MIME-encapsulate the others?"
 msgstr "Ne eblas malkodi ĉiujn markitajn partojn.  Ĉu MIME-paki la aliajn?"
+
+#: remailer.c:164
+msgid "<random>"
+msgstr ""
 
 #: remailer.c:481
 msgid "Append"
@@ -4394,12 +4349,10 @@ msgid "Select a remailer chain."
 msgstr "Elekti plusendiloĉenon."
 
 #: remailer.c:596
-#, c-format
 msgid "Error: %s can't be used as the final remailer of a chain."
 msgstr "Eraro: %s ne estas uzebla kiel la fina plusendilo de ĉeno."
 
 #: remailer.c:626
-#, c-format
 msgid "Mixmaster chains are limited to %d elements."
 msgstr "Mixmaster-ĉenoj estas limigitaj al %d elementoj."
 
@@ -4424,16 +4377,16 @@ msgid "Please set the hostname variable to a proper value when using mixmaster!"
 msgstr "Bonvolu doni ĝustan valoron al \"hostname\" kiam vi uzas mixmaster!"
 
 #: remailer.c:766
-#, c-format
 msgid "Error sending message, child exited %d.\n"
+""
 msgstr "Eraro dum sendado de mesaĝo; ido finis per %d.\n"
+""
 
 #: remailer.c:770
 msgid "Error sending message."
 msgstr "Eraro dum sendado de mesaĝo."
 
 #: rfc1524.c:164
-#, c-format
 msgid "Improperly formatted entry for type %s in \"%s\" line %d"
 msgstr "Malĝuste strukturita elemento por speco %s en \"%s\" linio %d"
 
@@ -4442,7 +4395,6 @@ msgid "No mailcap path specified"
 msgstr "Neniu mailcap-vojo specifita"
 
 #: rfc1524.c:424
-#, c-format
 msgid "mailcap entry for type %s not found"
 msgstr "mailcap-regulo por speco %s ne trovita"
 
@@ -4470,12 +4422,10 @@ msgstr "Mankas temlinio; eliras."
 #. Asks whether the user respects the reply-to header.
 #. If she says no, mutt will reply to the from header's address instead.
 #: send.c:554
-#, c-format
 msgid "Reply to %s%s?"
 msgstr "Ĉu respondi al %s%s?"
 
 #: send.c:588
-#, c-format
 msgid "Follow-up to %s%s?"
 msgstr "Ĉu respondi grupe al %s%s?"
 
@@ -4587,17 +4537,14 @@ msgid "No boundary parameter found! [report this error]"
 msgstr "Nenia limparametro trovita! (Raportu ĉi tiun cimon.)"
 
 #: sendlib.c:466
-#, c-format
 msgid "%s no longer exists!"
 msgstr "%s ne plu ekzistas!"
 
 #: sendlib.c:889
-#, c-format
 msgid "%s isn't a regular file."
 msgstr "%s ne estas normala dosiero."
 
 #: sendlib.c:1062
-#, c-format
 msgid "Could not open %s"
 msgstr "Ne eblas malfermi %s"
 
@@ -4606,7 +4553,6 @@ msgid "$sendmail must be set in order to send mail."
 msgstr "Necesas difini $sendmail por povi sendi retpoŝton."
 
 #: sendlib.c:2533
-#, c-format
 msgid "Error sending message, child exited %d (%s)."
 msgstr "Eraro dum sendado de mesaĝo; ido finis per %d (%s)."
 
@@ -4615,24 +4561,26 @@ msgid "Output of the delivery process"
 msgstr "Eligo de la liverprocezo"
 
 #: sendlib.c:2718
-#, c-format
 msgid "Bad IDN %s while preparing resent-from."
 msgstr "Malbona IDN %s dum kreado de resent-from."
 
 #: signal.c:43
-#, c-format
 msgid "%s...  Exiting.\n"
+""
 msgstr "%s...  Eliras.\n"
+""
 
 #: signal.c:46 signal.c:49
-#, c-format
 msgid "Caught %s...  Exiting.\n"
+""
 msgstr "Ricevis %s...  Eliras.\n"
+""
 
 #: signal.c:51
-#, c-format
 msgid "Caught signal %d...  Exiting.\n"
+""
 msgstr "Ricevis signalon %d...  Eliras.\n"
+""
 
 #: smime.c:141
 msgid "Enter S/MIME passphrase:"
@@ -4667,7 +4615,6 @@ msgid "Unknown   "
 msgstr "Nekonate      "
 
 #: smime.c:430
-#, c-format
 msgid "S/MIME certificates matching \"%s\"."
 msgstr "S/MIME-atestiloj kiuj kongruas kun \"%s\"."
 
@@ -4680,7 +4627,6 @@ msgid "Enter keyID: "
 msgstr "Donu keyID: "
 
 #: smime.c:909
-#, c-format
 msgid "No (valid) certificate found for %s."
 msgstr "Nenia (valida) atestilo trovita por %s."
 
@@ -4714,42 +4660,47 @@ msgid "Can't open OpenSSL subprocess!"
 msgstr "Ne eblas malfermi OpenSSL-subprocezon!"
 
 #: smime.c:1792 smime.c:1915
-msgid ""
-"[-- End of OpenSSL output --]\n"
+msgid "[-- End of OpenSSL output --]\n"
 "\n"
-msgstr ""
-"[-- Fino de OpenSSL-eligo --]\n"
+""
+msgstr "[-- Fino de OpenSSL-eligo --]\n"
 "\n"
+""
 
 #: smime.c:1874 smime.c:1885
 msgid "[-- Error: unable to create OpenSSL subprocess! --]\n"
+""
 msgstr "[-- Eraro: ne eblas krei OpenSSL-subprocezon! --]\n"
+""
 
 #: smime.c:1919
 msgid "[-- The following data is S/MIME encrypted --]\n"
+""
 msgstr "[-- La sekvaj datenoj estas S/MIME-ĉifritaj --]\n"
+""
 
 #: smime.c:1922
 msgid "[-- The following data is S/MIME signed --]\n"
+""
 msgstr "[-- La sekvaj datenoj estas S/MIME-subskribitaj --]\n"
+""
 
 #: smime.c:1986
-msgid ""
-"\n"
+msgid "\n"
 "[-- End of S/MIME encrypted data. --]\n"
-msgstr ""
-"\n"
+""
+msgstr "\n"
 "[-- Fino de S/MIME-ĉifritaj datenoj. --]\n"
+""
 
 #: smime.c:1988
-msgid ""
-"\n"
+msgid "\n"
 "[-- End of S/MIME signed data. --]\n"
-msgstr ""
-"\n"
+""
+msgstr "\n"
 "[-- Fino de S/MIME-subskribitaj datenoj. --]\n"
+""
 
-# Atentu -- mi ŝanĝis la ordon, sed la literoj devas sekvi la originalan.
 #. L10N: S/MIME options (opportunistic encryption is on)
 #: smime.c:2111
 msgid "S/MIME (s)ign, encrypt (w)ith, sign (a)s, (c)lear, or (o)ppenc mode off? "
@@ -4761,7 +4712,6 @@ msgstr "S/MIME (s)ubskribi, (k)iel, ĉifri (p)er, (f)orgesi, aŭ ne (o)ppenc-mod
 msgid "swafco"
 msgstr "spkffo"
 
-# Atentu -- mi ŝanĝis la ordon, sed la literoj devas sekvi la originalan.
 #. L10N: S/MIME options (opportunistic encryption is off)
 #: smime.c:2124
 msgid "S/MIME (e)ncrypt, (s)ign, encrypt (w)ith, sign (a)s, (b)oth, (c)lear, or (o)ppenc mode? "
@@ -4817,12 +4767,10 @@ msgid "895"
 msgstr "895"
 
 #: smtp.c:137
-#, c-format
 msgid "SMTP session failed: %s"
 msgstr "SMTP-konekto malsukcesis: %s"
 
 #: smtp.c:183
-#, c-format
 msgid "SMTP session failed: unable to open %s"
 msgstr "SMTP-konekto malsukcesis: ne povis malfermi %s"
 
@@ -4843,7 +4791,6 @@ msgid "Invalid server response"
 msgstr "Nevalida respondo de servilo"
 
 #: smtp.c:383
-#, c-format
 msgid "Invalid SMTP URL: %s"
 msgstr "Nevalida SMTP-adreso: %s"
 
@@ -4851,12 +4798,7 @@ msgstr "Nevalida SMTP-adreso: %s"
 msgid "SMTP server does not support authentication"
 msgstr "SMTP-servilo ne akceptas rajtiĝon"
 
-#: smtp.c:501
-msgid "SMTP authentication requires SASL"
-msgstr "SMTP-rajtiĝo bezonas SASL"
-
 #: smtp.c:535
-#, c-format
 msgid "%s authentication failed, trying next method"
 msgstr "%s-rajtiĝo malsukcesis; provante sekvan metodon"
 
@@ -4891,8 +4833,7 @@ msgstr "Patra mesaĝo ne estas videbla en ĉi tiu limigita rigardo."
 
 #: version.c:54
 #, fuzzy
-msgid ""
-"Copyright (C) 1996-2016 Michael R. Elkins <me@mutt.org>\n"
+msgid "Copyright (C) 1996-2016 Michael R. Elkins <me@mutt.org>\n"
 "Copyright (C) 1996-2002 Brandon Long <blong@fiction.net>\n"
 "Copyright (C) 1997-2009 Thomas Roessler <roessler@does-not-exist.org>\n"
 "Copyright (C) 1998-2005 Werner Koch <wk@isil.d.shuttle.de>\n"
@@ -4905,8 +4846,8 @@ msgid ""
 "\n"
 "Many others not mentioned here contributed code, fixes,\n"
 "and suggestions.\n"
-msgstr ""
-"Kopirajto (C) 1996-2016 Michael R. Elkins <me@mutt.org>\n"
+""
+msgstr "Kopirajto (C) 1996-2016 Michael R. Elkins <me@mutt.org>\n"
 "Kopirajto (C) 1996-2002 Brandon Long <blong@fiction.net>\n"
 "Kopirajto (C) 1997-2009 Thomas Roessler <roessler@does-not-exist.org>\n"
 "Kopirajto (C) 1998-2005 Werner Koch <wk@isil.d.shuttle.de>\n"
@@ -4918,10 +4859,10 @@ msgstr ""
 "\n"
 "Multaj aliaj homoj ne menciitaj ĉi tie kontribuis programliniojn,\n"
 "riparojn, kaj sugestojn.\n"
+""
 
 #: version.c:70
-msgid ""
-"    This program is free software; you can redistribute it and/or modify\n"
+msgid "    This program is free software; you can redistribute it and/or modify\n"
 "    it under the terms of the GNU General Public License as published by\n"
 "    the Free Software Foundation; either version 2 of the License, or\n"
 "    (at your option) any later version.\n"
@@ -4930,8 +4871,8 @@ msgid ""
 "    but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
 "    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
 "    GNU General Public License for more details.\n"
-msgstr ""
-"    Ĉi tiu programo estas libera; vi povas pludoni kopiojn kaj modifi\n"
+""
+msgstr "    Ĉi tiu programo estas libera; vi povas pludoni kopiojn kaj modifi\n"
 "    ĝin sub la kondiĉoj de la Ĝenerala Publika Rajtigilo de GNU,\n"
 "    kiel tio estas eldonita de Free Software Foundation; aŭ versio 2\n"
 "    de la Rajtigilo, aŭ (laŭ via elekto) iu sekva versio.\n"
@@ -4940,43 +4881,42 @@ msgstr ""
 "    sed SEN IA AJN GARANTIO; eĉ sen la implicita garantio de\n"
 "    KOMERCA KVALITO aŭ ADEKVATECO POR DIFINITA CELO. Vidu la\n"
 "    Ĝeneralan Publikan Rajtigilon de GNU por pli da detaloj.\n"
+""
 
 #: version.c:82
-msgid ""
-"    You should have received a copy of the GNU General Public License\n"
+msgid "    You should have received a copy of the GNU General Public License\n"
 "    along with this program; if not, write to the Free Software\n"
 "    Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.\n"
-msgstr ""
-"    Vi devus esti ricevinta kopion de la Ĝenerala Publika Rajtigilo de\n"
+""
+msgstr "    Vi devus esti ricevinta kopion de la Ĝenerala Publika Rajtigilo de\n"
 "    GNU kun ĉi tiu programo; se ne, skribu al Free Software Foundation,\n"
 "    Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, Usono.\n"
+""
 
 #: version.c:88
-msgid ""
-"To learn more about NeoMutt, visit: http://www.neomutt.org/\n"
+msgid "To learn more about NeoMutt, visit: http://www.neomutt.org/\n"
 "If you find a bug in NeoMutt, please raise an issue at:\n"
 "    https://github.com/neomutt/neomutt/issues\n"
 "or send an email to: <neomutt-devel@neomutt.org>\n"
+""
 msgstr ""
 
 #: version.c:95
-msgid ""
-"Copyright (C) 1996-2016 Michael R. Elkins and others.\n"
+msgid "Copyright (C) 1996-2016 Michael R. Elkins and others.\n"
 "Mutt comes with ABSOLUTELY NO WARRANTY; for details type `mutt -vv'.\n"
 "Mutt is free software, and you are welcome to redistribute it\n"
 "under certain conditions; type `mutt -vv' for details.\n"
-msgstr ""
-"Kopirajto (C) 1996-2016 Michael R. Elkins kaj aliaj.\n"
+""
+msgstr "Kopirajto (C) 1996-2016 Michael R. Elkins kaj aliaj.\n"
 "Mutt venas kun ABSOLUTE NENIA GARANTIO; por detaloj tajpu 'mutt -vv'.\n"
 "Mutt estas libera programo, kaj vi rajtas pludoni kopiojn\n"
 "sub difinitaj kondiĉoj; tajpu 'mutt -vv' por detaloj.\n"
+""
 
 #: version.c:452
-msgid ""
-"\n"
+msgid "\n"
 "Compile options:"
-msgstr ""
-"\n"
+msgstr "\n"
 "Parametroj de la tradukaĵo:"
 
 #: ../keymap_alldefs.h:5
@@ -5881,6 +5821,18 @@ msgid "generate virtual folder from query"
 msgstr ""
 
 #: ../keymap_alldefs.h:224
+msgid "generate virtual folder from query and time window"
+msgstr ""
+
+#: ../keymap_alldefs.h:225
+msgid "shifts virtual folder time window forwards"
+msgstr ""
+
+#: ../keymap_alldefs.h:226
+msgid "shifts virtual folder time window backwards"
+msgstr ""
+
+#: ../keymap_alldefs.h:224
 msgid "modify (notmuch) tags"
 msgstr ""
 
@@ -5965,8 +5917,55 @@ msgstr "eltiri publikajn ŝlosilojn"
 msgid "show S/MIME options"
 msgstr "montri S/MIME-funkciojn"
 
-#~ msgid "move to the first message"
-#~ msgstr "iri al la unua mesaĝo"
+#: handler.c:1266
+msgid "[-- Type: %s/%s, Encoding: %s, Size: %s --]\n"
+""
+msgstr "[-- Speco: %s/%s, Kodado: %s, Grando: %s --]\n"
+""
 
-#~ msgid "move to the last message"
-#~ msgstr "iri al la lasta mesaĝo"
+#: init.c:536
+msgid "Not enough subexpressions for spam template"
+msgstr "Malsufiĉaj subesprimoj por spamŝablono"
+
+#: main.c:86
+msgid "usage: mutt [<options>] [-z] [-f <file> | -yZ]\n"
+"       mutt [<options>] [-Ex] [-Hi <file>] [-s <subj>] [-bc <addr>] [-a <file> [...] --] <addr> [...]\n"
+"       mutt [<options>] [-x] [-s <subj>] [-bc <addr>] [-a <file> [...] --] <addr> [...] < message\n"
+"       mutt [<options>] -p\n"
+"       mutt [<options>] -A <alias> [...]\n"
+"       mutt [<options>] -Q <query> [...]\n"
+"       mutt [<options>] -D\n"
+"       mutt -v[v]\n"
+""
+msgstr "Uzmanieroj: mutt [<opcioj>] [-z] [-f <dosiero> | -yZ]\n"
+"            mutt [<opcioj>] [-Ex] [-Hi <dosiero>] [-s <temo>] [-bc <adreso>]\n"
+"                 [-a <dosiero> [...] --] <adreso> [...]\n"
+"            mutt [<opcioj>] [-x] [-s <temo>] [-bc <adreso>]\n"
+"                 [-a <dosiero> [...] --] <adreso> [...] < mesaĝo\n"
+"            mutt [<opcioj>] -p\n"
+"            mutt [<opcioj>] -A <nomo> [...]\n"
+"            mutt [<opcioj>] -Q <variablo> [...]\n"
+"            mutt [<opcioj>] -D\n"
+"            mutt -v[v]\n"
+""
+
+#: main.c:95
+msgid "options:\n"
+"  -A <alias>\texpand the given alias\n"
+"  -a <file> [...] --\tattach file(s) to the message\n"
+"\t\tthe list of files must be terminated with the \"--\" sequence\n"
+"  -b <address>\tspecify a blind carbon-copy (BCC) address\n"
+"  -c <address>\tspecify a carbon-copy (CC) address\n"
+"  -D\t\tprint the value of all variables to stdout"
+msgstr "Opcioj:\n"
+"  -A <nomo>      traduki la nomon per la adresaro\n"
+"  -a <dosiero> [...] --\n"
+"                 aldoni dosiero(j)n al la mesaĝo\n"
+"  -b <adreso>    specifi adreson por blinda kopio (BCC)\n"
+"  -c <adreso>    specifi adreson por kopio (CC)\n"
+"  -D             montri en ĉefeligujo la valorojn de ĉiuj variabloj"
+
+#: smtp.c:501
+msgid "SMTP authentication requires SASL"
+msgstr "SMTP-rajtiĝo bezonas SASL"
+
