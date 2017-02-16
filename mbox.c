@@ -1043,9 +1043,7 @@ static int mbox_sync_mailbox (CONTEXT *ctx, int *index_hint)
     mutt_debug (1, "mbox_sync_mailbox: unable to reopen temp copy of mailbox!\n");
     mutt_perror (tempfile);
     mutt_sleep (5);
-    //CID 76982 (1/3)
     FREE (&newOffset);
-    //CID 76983 (1/3)
     FREE (&oldOffset);
     return (-1);
   }
@@ -1110,9 +1108,7 @@ static int mbox_sync_mailbox (CONTEXT *ctx, int *index_hint)
     mutt_pretty_mailbox (savefile, sizeof (savefile));
     mutt_error (_("Write failed!  Saved partial mailbox to %s"), savefile);
     mutt_sleep (5);
-    //CID 76982 (3/3)
     FREE (&newOffset);
-    //CID 76983 (3/3)
     FREE (&oldOffset);
     return (-1);
   }
@@ -1127,9 +1123,7 @@ static int mbox_sync_mailbox (CONTEXT *ctx, int *index_hint)
     mutt_unblock_signals ();
     mx_fastclose_mailbox (ctx);
     mutt_error (_("Fatal error!  Could not reopen mailbox!"));
-    //CID 76982 (2/3)
     FREE (&newOffset);
-    //CID 76983 (2/3)
     FREE (&oldOffset);
     return (-1);
   }

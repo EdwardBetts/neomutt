@@ -1153,9 +1153,7 @@ static int parse_group (BUFFER *buf, BUFFER *s, unsigned long data, BUFFER *err)
 	  { 
 	    snprintf (err->data, err->dsize, _("%sgroup: warning: bad IDN '%s'.\n"),
 		      data == 1 ? "un" : "", estr);
-            //CID 76978
             rfc822_free_address (&addr);
-            //CID 76979
             FREE(&estr);
 	    goto bail;
 	  }
@@ -1291,7 +1289,6 @@ static int parse_unattach_list (BUFFER *buf, BUFFER *s, LIST **ldata, BUFFER *er
   do
   {
     mutt_extract_token (buf, s, 0);
-    //CID 76980
     FREE(&tmp);
 
     if (!ascii_strcasecmp(buf->data, "any"))
@@ -1623,7 +1620,6 @@ static int parse_alias (BUFFER *buf, BUFFER *s, unsigned long data, BUFFER *err)
   {
     snprintf (err->data, err->dsize, _("Warning: Bad IDN '%s' in alias '%s'.\n"),
 	      estr, tmp->name);
-    //CID 76977
     FREE(&estr);
     goto bail;
   }
@@ -3906,7 +3902,6 @@ void mutt_init (int skip_sys_rc, LIST *commands)
     if (config)
     {
       Muttrc = mutt_add_list (Muttrc, config);
-      //CID 160977
       FREE(&config);
     }
   }

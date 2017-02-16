@@ -53,7 +53,6 @@ int mutt_get_tmp_attachment (BODY *a)
   if(a->unlink)
     return 0;
 
-  //CID 76976
   rfc1524_entry *entry = rfc1524_new_entry();
   snprintf(type, sizeof(type), "%s/%s", TYPE(a), a->subtype);
   rfc1524_mailcap_lookup(a, type, entry, 0);

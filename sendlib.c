@@ -1801,7 +1801,6 @@ static int write_one_header (FILE *fp, int pfxw, int max, int wraplen,
     {
       if (fputs (pfx, fp) == EOF)
       {
-        //CID 76985 (1/4)
         FREE (&valbuf);
 	return -1;
       }
@@ -1810,7 +1809,6 @@ static int write_one_header (FILE *fp, int pfxw, int max, int wraplen,
     if (!(t = strchr (valbuf, ':')))
     {
       mutt_debug (1, "mwoh: warning: header not in 'key: value' format!\n");
-      //CID 76985 (2/4)
       FREE (&valbuf);
       return 0;
     }
@@ -1852,9 +1850,7 @@ static int write_one_header (FILE *fp, int pfxw, int max, int wraplen,
                 NONULL(pfx), valbuf, max, wraplen);
     if (fold_one_header (fp, tagbuf, valbuf, pfx, wraplen, flags) < 0)
     {
-      //CID 76985 (3/4)
       FREE (&valbuf);
-      //CID 76986
       FREE (&tagbuf);
       return -1;
     }
@@ -2886,7 +2882,6 @@ int mutt_write_fcc (const char *path, HEADER *hdr, const char *msgid,
     onm_flags |= MUTT_SET_DRAFT;
   if ((msg = mx_open_new_message (&f, hdr, onm_flags)) == NULL)
   {
-    //CID 76975
     safe_fclose(&tempfp);
     mx_close_mailbox (&f, NULL);
     return (-1);

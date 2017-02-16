@@ -452,9 +452,7 @@ int mutt_builtin_editor (const char *path, HEADER *msg, HEADER *cur)
 	      mutt_edit_headers (NONULL(Visual), path, msg, NULL, 0);
 	      if (mutt_env_to_intl (msg->env, &tag, &err))
 		printw (_("Bad IDN in %s: '%s'\n"), tag, err);
-              //CID 83478
               /* tag is a statically allocated string and should not be freed */
-              //CID 76984
               FREE(&err);
 	    }
 	    else

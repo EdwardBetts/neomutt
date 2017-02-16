@@ -1434,7 +1434,6 @@ BODY *smime_build_smime_entity (BODY *a, char *certlist)
     safe_fclose (&smimeerr);
     mutt_unlink (smimeinfile);
     mutt_unlink (certfile);
-    //CID 76963
     safe_fclose (&fpout);
     return (NULL);
   }
@@ -1874,7 +1873,6 @@ static BODY *smime_handle_entity (BODY *m, STATE *s, FILE *outFile)
     mutt_unlink (tmpfname);
     if (s->flags & MUTT_DISPLAY)
       state_attach_puts (_("[-- Error: unable to create OpenSSL subprocess! --]\n"), s);
-    //CID 76962 (2/4)
     safe_fclose (&smimeerr);
     return NULL;
   }
@@ -1887,7 +1885,6 @@ static BODY *smime_handle_entity (BODY *m, STATE *s, FILE *outFile)
     mutt_unlink (tmpfname);
     if (s->flags & MUTT_DISPLAY)
       state_attach_puts (_("[-- Error: unable to create OpenSSL subprocess! --]\n"), s);
-    //CID 76962 (3/4)
     safe_fclose (&smimeerr);
     return NULL;
   }
@@ -1941,7 +1938,6 @@ static BODY *smime_handle_entity (BODY *m, STATE *s, FILE *outFile)
       {
 	mutt_perror(tmptmpfname);
         safe_fclose (&smimeout);
-        //CID 76962 (4/4)
         safe_fclose (&smimeerr);
 	return NULL;
       }
