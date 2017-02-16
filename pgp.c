@@ -395,7 +395,6 @@ int pgp_application_pgp_handler (BODY *m, STATE *s)
       if ((tmpfp = safe_fopen (tmpfname, "w+")) == NULL)
       {
 	mutt_perror (tmpfname);
-        //CID 76967 (3/3)
         FREE(&gpgcharset);
 	return -1;
       }
@@ -418,7 +417,6 @@ int pgp_application_pgp_handler (BODY *m, STATE *s)
 	if (mutt_strncmp ("Charset: ", buf, 9) == 0)
 	{
 	  size_t l = 0;
-          //CID 76967 (1/3)
 	  FREE(&gpgcharset);
 	  gpgcharset = safe_strdup (buf + 9);
 	  if ((l = mutt_strlen (gpgcharset)) > 0 && gpgcharset[l-1] == '\n')
@@ -438,9 +436,7 @@ int pgp_application_pgp_handler (BODY *m, STATE *s)
 	if ((pgpout = safe_fopen (outfile, "w+")) == NULL)
 	{
 	  mutt_perror (outfile);
-          //CID 76966
 	  safe_fclose (&tmpfp);
-          //CID 76967 (2/3)
 	  FREE(&gpgcharset);
 	  return -1;
 	}
@@ -1447,7 +1443,6 @@ BODY *pgp_encrypt_message (BODY *a, char *keylist, int sign)
 				    fileno (fpout), fileno (pgperr),
 				    pgpinfile, keylist, sign)) == -1)
   {
-    //CID 76968
     safe_fclose (&fpout);
     safe_fclose (&pgperr);
     unlink(pgpinfile);

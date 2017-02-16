@@ -439,7 +439,6 @@ static void attach_forward_bodies (FILE * fp, HEADER * hdr,
   if ((tmpfp = safe_fopen (tmpbody, "w")) == NULL)
   {
     mutt_error (_("Can't open temporary file %s."), tmpbody);
-    //CID 76965
     mutt_free_header (&tmphdr);
     return;
   }
